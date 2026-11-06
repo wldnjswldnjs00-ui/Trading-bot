@@ -1,1 +1,25 @@
 data/okx_btc_5m_trim.csv: 668,113 bars 2020-07-01..2026-11-06, train < 2024-04-22
+
+SHORT: 432 settings tested. Best 8 chosen on TRAIN, then their TEST result:
+ side  K  M  quiet  stop_atr tgt  wait  start_only  n_tr  win_tr   R_tr  n_te  win_te   R_te
+SHORT  3  3  False       2.0   1    12       False   940   0.498 -0.237   624   0.505 -0.277
+SHORT  3  3  False       2.0 ext    48       False  1105   0.381 -0.241   720   0.369 -0.336
+SHORT  3  3  False       2.0 ext    12       False   940   0.398 -0.247   624   0.391 -0.316
+SHORT  3  3  False       2.0   2    12       False   940   0.337 -0.249   624   0.327 -0.344
+SHORT  3  3  False       2.0   1    48       False  1105   0.490 -0.252   720   0.496 -0.295
+SHORT  3  3  False       2.0   2    48       False  1105   0.335 -0.254   720   0.321 -0.362
+SHORT  4  2  False       2.0   2    12       False   656   0.343 -0.255   492   0.350 -0.274
+SHORT  3  3  False       2.0   1    12        True   358   0.500 -0.259   240   0.479 -0.329
+  all settings: median train R -0.883, median test R -0.862, share of settings with test R > 0: 0%
+
+LONG: 423 settings tested. Best 8 chosen on TRAIN, then their TEST result:
+side  K  M  quiet  stop_atr tgt  wait  start_only  n_tr  win_tr   R_tr  n_te  win_te   R_te
+LONG  6  3  False       2.0   2    12       False   211   0.351 -0.281   161   0.261 -0.608
+LONG  3  3  False       2.0   2    12       False   891   0.324 -0.316   614   0.342 -0.309
+LONG  3  3  False       2.0   2    48       False  1060   0.319 -0.324   691   0.342 -0.306
+LONG  6  3  False       2.0   2    48       False   277   0.332 -0.324   199   0.296 -0.483
+LONG  3  3  False       2.0   1    48       False  1060   0.461 -0.328   691   0.512 -0.260
+LONG  4  3  False       2.0   2    48       False   701   0.322 -0.329   496   0.335 -0.348
+LONG  4  3  False       2.0   1    48       False   701   0.469 -0.329   496   0.504 -0.290
+LONG  3  3  False       2.0   1    12       False   891   0.465 -0.330   614   0.513 -0.261
+  all settings: median train R -0.892, median test R -0.817, share of settings with test R > 0: 0%

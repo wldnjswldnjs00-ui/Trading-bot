@@ -1,0 +1,25 @@
+data/okx_btc_5m_trim.csv: 668,113 bars 2020-07-01..2026-11-06, train < 2024-04-22
+
+SHORT: 432 settings tested. Best 8 chosen on TRAIN, then their TEST result:
+ side  K  M  quiet  stop_atr tgt  wait  start_only  n_tr  win_tr  R_tr  n_te  win_te   R_te
+SHORT  6  3  False       0.5 ext    12        True    80   0.062 0.121    57   0.088  0.477
+SHORT  6  2  False       2.0   2    12        True    98   0.367 0.102    79   0.342  0.025
+SHORT  6  3  False       1.0 ext    48        True   152   0.112 0.098    90   0.089 -0.165
+SHORT  6  3  False       0.5 ext    48        True   152   0.059 0.095    90   0.078  0.289
+SHORT  6  2  False       1.0   2    12        True    98   0.357 0.071    79   0.392  0.177
+SHORT  4  2  False       0.5 ext    12       False   656   0.139 0.056   492   0.102 -0.031
+SHORT  4  2  False       2.0   2    12        True   290   0.352 0.055   232   0.366  0.099
+SHORT  3  3   True       2.0   2    12        True   147   0.347 0.041    96   0.312 -0.063
+  all settings: median train R -0.136, median test R -0.090, share of settings with test R > 0: 19%
+
+LONG: 423 settings tested. Best 8 chosen on TRAIN, then their TEST result:
+side  K  M  quiet  stop_atr tgt  wait  start_only  n_tr  win_tr  R_tr  n_te  win_te   R_te
+LONG  6  3   True       1.0   2    48       False    81   0.370 0.111    74   0.432  0.297
+LONG  6  3   True       1.0   2    12       False    57   0.351 0.053    62   0.452  0.355
+LONG  6  3  False       2.0   2    12       False   211   0.351 0.052   161   0.261 -0.217
+LONG  6  3  False       1.0   2    48       False   277   0.343 0.029   199   0.317 -0.050
+LONG  6  3  False       1.0   2    12       False   211   0.341 0.024   161   0.317 -0.050
+LONG  6  2  False       0.5 ext    48        True   166   0.054 0.020   132   0.061  0.128
+LONG  4  2   True       1.0   2    48       False   286   0.336 0.007   205   0.400  0.200
+LONG  4  2   True       0.5 ext    48       False   286   0.105 0.007   205   0.107 -0.073
+  all settings: median train R -0.174, median test R -0.065, share of settings with test R > 0: 32%

@@ -23,7 +23,8 @@ h, l, c, v = (df[k].values for k in 'hlcv')
 n = len(c); pc = np.r_[c[0], c[:-1]]
 atr = pd.Series(np.maximum(h - l, np.maximum(abs(h - pc), abs(l - pc)))).rolling(100, min_periods=50).mean().values
 vmed = pd.Series(v).rolling(720, min_periods=200).median().shift(1).values
-MAKER, TAKER = 0.0002, 0.0007
+import os
+MAKER, TAKER = (0.0, 0.0) if os.environ.get("NOFEE") else (0.0002, 0.0007)
 CONF, MAXLEG = 1.5, 48
 
 def events(K, M, QUIET):
