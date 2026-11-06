@@ -116,6 +116,7 @@ def load_coin(sym):
         fr.append(d.iloc[:, [0, 1, 2, 3, 4, 5, 9]].astype(float))
     d = pd.concat(fr); d.columns = ['t', 'o', 'h', 'l', 'c', 'v', 'tb']; d = d[d.t % 300000 == 0].drop_duplicates('t')
     df = d.set_index(pd.to_datetime(d.t.astype(np.int64), unit='ms', utc=True))[['o', 'h', 'l', 'c', 'v', 'tb']].sort_index()
+    df.index.name = None
     return df
 
 
