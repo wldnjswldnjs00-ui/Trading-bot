@@ -96,7 +96,7 @@ def run(big, mid, small, m1):
         t2, low = end2
         # small degree: first wave 1-2 in the big direction after that
         a = np.searchsorted(st_, t2, side='right')
-        for q in range(a, min(len(sc), a + 400)):
+        for q in range(a, min(len(sc), a + (8000 if ALL else 400))):
             t3, p3, k3, s3, P3 = sc[q]
             if s3 == s and p3 in ('IMP', 'LD') and k3 == 2:
                 if s * (P3[2] - low) < 0: break                          # small wave 2 undercut the big wave-2 end
@@ -110,7 +110,7 @@ def run(big, mid, small, m1):
                 rows.append(dict(combo=f'{big}>{mid}>{small}', time=pd.Timestamp(t3, tz='UTC'), side=s, big_pat=pat, R=R,
                                  stop_dist=dist, hit_tp1=hit1, rr_tp2=abs(tp2 - px) / abs(px - stop), hours=bars * Sm.ct[1:2].item() * 0))
                 break
-            if s3 == -s and p3 in ('IMP', 'LD') and k3 >= 3: break     # small degree turned against: skip this one
+            if not ALL and s3 == -s and p3 in ('IMP', 'LD') and k3 >= 3: break   # small degree turned against: skip this one
     return pd.DataFrame(rows)
 
 
