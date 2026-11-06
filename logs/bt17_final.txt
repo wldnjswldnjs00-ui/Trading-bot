@@ -1,0 +1,203 @@
+K=2.0: switches 179  bull days 38% bear 26% range 36%
+    2017-08:- 2017-09:B 2017-09:- 2017-09:S 2017-10:- 2017-10:B 2017-11:- 2017-11:S 2017-12:- 2017-12:B 2017-12:- 2017-12:S 2017-12:- 2017-12:B 2018-02:- 2018-03:S 2018-04:- 2018-07:S 2018-07:- 2018-08:B 2018-08:- 2018-09:S 2018-09:- 2018-10:B 2018-11:- 2018-11:S 2018-11:- 2018-12:B 2018-12:- 2018-12:S 2019-02:- 2019-04:B 2019-05:- 2019-06:B 2019-06:- 2019-06:B 2019-07:- 2019-07:S 2019-07:- 2019-07:S 2019-08:- 2019-08:B 2019-09:- 2019-10:S 2019-10:- 2019-12:S 2020-01:- 2020-01:B 2020-02:- 2020-03:S 2020-03:- 2020-03:B 2020-05:- 2020-06:B 2020-08:- 2020-08:B 2020-09:- 2020-09:S 2020-10:- 2020-10:B 2020-11:- 2020-12:B 2021-01:- 2021-01:S 2021-01:- 2021-02:B 2021-04:- 2021-05:S 2021-05:- 2021-06:S 2021-06:- 2021-07:S 2021-07:- 2021-08:B 2021-09:- 2021-09:S 2021-10:- 2021-11:B 2021-12:- 2021-12:S 2021-12:- 2021-12:B 2022-01:- 2022-02:S 2022-02:- 2022-04:B 2022-04:- 2022-05:S 2022-07:- 2022-07:B 2022-09:- 2022-09:S 2022-10:- 2022-11:B 2022-11:- 2022-11:S 2022-12:- 2023-01:B 2023-02:- 2023-02:B 2023-02:- 2023-03:B 2023-05:- 2023-05:S 2023-07:- 2023-07:B 2023-08:- 2023-08:S 2023-08:- 2023-09:B 2023-09:- 2023-09:S 2023-10:- 2023-10:B 2023-12:- 2023-12:B 2024-01:- 2024-01:B 2024-01:- 2024-03:B 2024-03:- 2024-03:S 2024-03:- 2024-04:B 2024-04:- 2024-05:S 2024-06:- 2024-07:B 2024-07:- 2024-07:S 2024-07:- 2024-07:B 2024-08:- 2024-08:S 2024-08:- 2024-08:B 2024-09:- 2024-10:B 2024-10:- 2024-10:S 2024-10:- 2024-10:B 2025-01:- 2025-01:S 2025-01:- 2025-01:B 2025-02:- 2025-02:S 2025-03:- 2025-03:S 2025-05:- 2025-06:B 2025-06:- 2025-06:S 2025-07:- 2025-08:B 2025-09:- 2025-09:S 2025-09:- 2025-10:B 2025-10:- 2025-10:S 2025-10:- 2025-10:B 2025-11:- 2025-11:S 2025-12:- 2025-12:B 2026-02:- 2026-02:S 2026-02:- 2026-03:B 2026-04:- 2026-06:S 2026-08:- 2026-08:B 2026-09:- 2026-10:B 2026-10:-
+K=3.0: switches 82  bull days 34% bear 37% range 29%
+    2017-08:- 2017-09:B 2017-09:- 2017-09:S 2017-11:- 2017-11:B 2017-12:- 2018-01:S 2018-04:- 2018-07:S 2018-08:- 2018-10:B 2018-11:- 2018-12:S 2019-02:- 2019-04:B 2019-07:- 2019-07:S 2019-07:- 2019-08:S 2020-01:- 2020-01:B 2020-03:- 2020-05:S 2020-05:- 2020-06:B 2020-10:- 2020-11:B 2021-01:- 2021-01:S 2021-02:- 2021-03:B 2021-05:- 2021-05:S 2021-09:- 2021-10:B 2021-12:- 2022-01:S 2022-03:- 2022-04:B 2022-06:- 2022-06:S 2022-09:- 2022-10:S 2022-12:- 2023-01:B 2023-03:- 2023-06:B 2023-09:- 2023-09:S 2023-10:- 2023-10:B 2024-01:- 2024-03:B 2024-03:- 2024-04:S 2024-09:- 2024-10:B 2025-03:- 2025-03:S 2025-06:- 2025-06:B 2025-06:- 2025-06:S 2025-08:- 2025-08:B 2025-09:- 2025-09:S 2025-10:- 2025-10:B 2025-10:- 2025-10:S 2025-10:- 2025-11:B 2025-12:- 2026-01:S 2026-04:- 2026-05:B 2026-06:- 2026-06:S 2026-09:- 2026-09:B
+K=4.0: switches 51  bull days 32% bear 31% range 37%
+    2017-08:- 2017-11:B 2018-03:- 2018-03:S 2018-04:- 2018-07:S 2018-09:- 2018-10:B 2019-02:- 2019-02:S 2019-03:- 2019-05:B 2019-07:- 2019-10:S 2020-02:- 2020-05:S 2020-06:- 2020-07:B 2021-01:- 2021-02:S 2021-04:- 2021-09:S 2021-10:- 2021-11:B 2022-02:- 2022-02:S 2022-03:- 2022-04:B 2022-07:- 2022-08:S 2022-09:- 2022-11:S 2023-01:- 2023-02:B 2023-03:- 2023-06:B 2023-09:- 2023-10:S 2024-01:- 2024-02:B 2024-06:- 2024-07:S 2024-09:- 2024-12:B 2025-03:- 2025-03:S 2025-06:- 2025-07:B 2025-10:- 2025-11:S 2026-10:-
+1000BONK
+1000PEPE
+1000SHIB
+2Z
+AAVE
+ACT
+ADA
+AERO
+AKE
+ALGO
+ALLO
+APE
+APR
+APT
+AR
+ARB
+ARX
+ASTER
+ATH
+ATOM
+AVAX
+AXS
+BASED
+BAT
+BCH
+BEAT
+BERA
+BICO
+BILL
+BIO
+BLUR
+BNB
+BOME
+BSB
+BTC
+BTW
+CAP
+CC
+CFX
+CHIP
+CHZ
+CRV
+DASH
+DOGE
+DOOD
+DOS
+DOT
+DYDX
+EDGE
+EIGEN
+ENA
+ENS
+ENSO
+ETC
+ETH
+ETHFI
+FARTCOIN
+FET
+FIL
+FLOCK
+FOGO
+GALA
+GIGGLE
+GRAM
+GRASS
+GRVT
+H
+HBAR
+HOME
+HUMA
+HYPE
+ICP
+IMX
+INIT
+INJ
+IOST
+IRYS
+JTO
+JUP
+KAITO
+KAT
+KMNO
+LA
+LAB
+LDO
+LINK
+LIT
+LPT
+LTC
+MAGIC
+MEGA
+MERL
+MET
+MEW
+MINA
+MMT
+MON
+MOODENG
+MORPHO
+MUBARAK
+NEAR
+NIGHT
+NMR
+OL
+ONDO
+ONE
+OP
+ORDER
+ORDI
+PARTI
+PENDLE
+PENGU
+PEOPLE
+PIEVERSE
+PLUME
+PNUT
+POL
+PONS
+PUMP
+PYTH
+RAVE
+RAY
+RE
+RENDER
+RIVER
+RSR
+RVN
+S
+SAND
+SEI
+SLX
+SOL
+SOON
+SOPH
+SPX
+STRK
+STX
+SUI
+SYRUP
+TAO
+TIA
+TRB
+TRIA
+TRUMP
+TRUTH
+TRX
+UB
+UNI
+USELESS
+
+=== BTC daily regime K=2.0 ===
+                                   n   avgR    win  per_day
+cfg              align   side                             
+ict|half_trail   against -1    3454  0.126  0.556    3.154
+                          1    2279  0.033  0.507    2.081
+                 range   -1    4096  0.053  0.531    3.741
+                          1    2765  0.015  0.507    2.525
+                 with    -1    3397 -0.068  0.479    3.102
+                          1    2234 -0.008  0.500    2.040
+ict|pyr          against -1    3727  0.139  0.320    3.404
+                          1    2507  0.054  0.281    2.289
+                 range   -1    4378  0.018  0.321    3.998
+                          1    2961  0.039  0.295    2.704
+                 with    -1    3646 -0.091  0.264    3.330
+                          1    2382 -0.013  0.271    2.175
+sweep|half_trail against -1    4950  0.045  0.186    4.521
+                          1    4559 -0.088  0.175    4.163
+                 range   -1    5340  0.002  0.182    4.877
+                          1    5718 -0.079  0.181    5.222
+                 with    -1    4770 -0.101  0.192    4.356
+                          1    5163 -0.103  0.189    4.715
+sweep|pyr        against -1    5011  0.200  0.138    4.576
+                          1    4633 -0.072  0.117    4.231
+                 range   -1    5429  0.096  0.143    4.958
+                          1    5812 -0.115  0.126    5.308
+                 with    -1    4880 -0.191  0.141    4.457
+                          1    5244 -0.163  0.134    4.789
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3641, in get_loc
+    return self._engine.get_loc(casted_key)
+           ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "pandas/_libs/index.pyx", line 168, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 583, in pandas._libs.index.StringObjectEngine._check_type
+KeyError: False
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/user/trading-bot/bt17_regime.py", line 63, in <module>
+    W = T[T.align == 'with']
+        ~^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/site-packages/pandas/core/frame.py", line 4378, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/usr/local/lib/python3.13/site-packages/pandas/core/indexes/base.py", line 3648, in get_loc
+    raise KeyError(key) from err
+KeyError: False

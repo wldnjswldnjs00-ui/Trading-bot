@@ -56,11 +56,11 @@ if __name__ == '__main__':
     days = (T.time.max() - T.time.min()).days
     pd.set_option('display.width', 250)
     for K in regs:
-        T['align'] = np.where(T[f'reg{K}'] == 0, 'range', np.where(T[f'reg{K}'] == T.side, 'with', 'against'))
-        G = T.groupby(['cfg', 'align', 'side']).R.agg(n='size', avgR='mean', win=lambda x: (x > 0).mean())
+        T['al'] = np.where(T[f'reg{K}'] == 0, 'range', np.where(T[f'reg{K}'] == T.side, 'with', 'against'))
+        G = T.groupby(['cfg', 'al', 'side']).R.agg(n='size', avgR='mean', win=lambda x: (x > 0).mean())
         G['per_day'] = G.n / days
         print(f'\n=== BTC daily regime K={K} ===\n', G.round(3).to_string())
-        W = T[T.align == 'with']
+        W = T[T['al'] == 'with']
         S = W.groupby('cfg').agg(n=('R', 'size'), avgR=('R', 'mean'),
                                  first=('R', lambda x: x[W.loc[x.index, 'time'] < SPLIT].mean()),
                                  last=('R', lambda x: x[W.loc[x.index, 'time'] >= SPLIT].mean()))
