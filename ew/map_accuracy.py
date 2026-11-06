@@ -31,9 +31,11 @@ def states(D, parent_tl=None):
                 S = [D.structure(st + q, st + q + 1) for q in range(k)]
                 ok, sc, _, _ = check(pat, P, s, S, D, D.i[st:j + 1], ppos)
                 if not ok: continue
-                nxt = (s if k % 2 == 0 else -s) if k < n else -s           # direction of the wave now in progress
-                votes.append((nxt, sc + 0.04 * k))
-                if best is None or sc + 0.04 * k > best[0]: best = (sc + 0.04 * k, nxt, (pat, st))
+                # BIG trend this count implies: a motive pattern goes its own way, a correction goes against the trend
+                trend = s if pat in ('IMP', 'LD', 'ED') else -s
+                if k == n: trend = -trend if pat in ('IMP', 'LD', 'ED') else trend   # finished motive -> bigger correction next
+                votes.append((trend, sc + 0.04 * k))
+                if best is None or sc + 0.04 * k > best[0]: best = (sc + 0.04 * k, trend, (pat, st))
         if best is None: continue
         w = np.array([v[1] for v in votes]); d = np.array([v[0] for v in votes])
         out.append((now, best[1], best[2], float((w * (d > 0)).sum() / w.sum()), len(votes)))
@@ -79,6 +81,6 @@ if __name__ == '__main__':
                              n_days=int(scored.sum())))
     R = pd.DataFrame(rows); pd.set_option('display.width', 200)
     txt = R.pivot_table(index='map', columns='horizon_days', values=['accuracy', 'coverage']).round(3).to_string()
-    txt = 'DIRECTION ACCURACY OF BIG-WAVE MAPS (BTC 2017-2026, truth = next H days beyond +-5%)\n' + txt
-    print(txt); open('logs/ew_map_accuracy.txt', 'w').write(txt)
+    txt = 'BIG-TREND ACCURACY OF BIG-WAVE MAPS (BTC 2017-2026, truth = next H days beyond +-5%)\n' + txt
+    print(txt); open('logs/ew_map_accuracy_trend.txt', 'w').write(txt)
     pd.DataFrame(maps, index=days).to_csv('ew/maps_daily.csv')
