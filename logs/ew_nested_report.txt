@@ -1,0 +1,20 @@
+NESTED TOP-DOWN ENTRIES (BTC 2017-2026, fees included)
+                n    win  hit_tp1   avgR  medR  med_stop   med_rr   best
+combo                                                                   
+1D>1h>5min      2  0.000     0.00 -1.000  -1.0     0.006  171.823 -1.000
+4h>15min>5min  42  0.167     0.19 -0.454  -1.0     0.005   35.568  9.839
+4h>1h>5min      7  0.000     0.00 -1.000  -1.0     0.007   37.007 -1.000
+
+BY YEAR
+            size                                mean                         
+combo 1D>1h>5min 4h>15min>5min 4h>1h>5min 1D>1h>5min 4h>15min>5min 4h>1h>5min
+time                                                                         
+2018         NaN           5.0        NaN        NaN         1.168        NaN
+2019         NaN           4.0        1.0        NaN        -0.646       -1.0
+2020         1.0           6.0        2.0       -1.0        -0.838       -1.0
+2021         NaN           3.0        NaN        NaN         0.086        NaN
+2022         NaN           3.0        NaN        NaN        -1.000        NaN
+2023         NaN           7.0        1.0        NaN        -0.711       -1.0
+2024         1.0           5.0        1.0       -1.0        -0.714       -1.0
+2025         NaN           4.0        1.0        NaN        -0.513       -1.0
+2026         NaN           5.0        1.0        NaN        -0.790       -1.0
