@@ -1,0 +1,19 @@
+bots: 384  weeks: 201  bot-weeks: 77,184
+liquidated (-100%)      : 45.7%
+median week             : -95.3%
+weeks >= +  100%       :  1,417  (1.836%)
+weeks >= +  300%       :    401  (0.520%)
+weeks >= + 1000%       :     61  (0.079%)
+weeks >= + 3000%       :      1  (0.001%)
+best single week        : +3,193%
+
+by leverage:  liquidated | median | share of weeks >= +1000%
+   10x     0.2%    -38.3%   0.000%
+   20x     8.5%    -73.6%   0.202%
+   50x    74.7%   -100.0%   0.114%
+  100x    99.1%   -100.0%   0.000%
+
+after a +1000% week (61 cases), NEXT week:
+  liquidated 39% | median -87% | again >= +1000%: 0.0%
+
+same bots compounding the whole 3.8 years: alive 0.0%, best final x 5.85e-33
