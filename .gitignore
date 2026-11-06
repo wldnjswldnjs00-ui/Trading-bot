@@ -1,4 +1,3 @@
-data/raw/
 __pycache__/
-*.zip
 data/btcusdt_5m.csv
+*.zip
