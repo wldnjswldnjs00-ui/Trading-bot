@@ -1,0 +1,75 @@
+/home/user/trading-bot/ew/engine.py:34: RuntimeWarning: The 'origin' keyword does not take effect when resampling with a 'freq' that is not Tick-like (h, m, s, ms, us, ns)
+  d = m1.resample(rule, **kw).agg(dict(o='first', h='max', l='min', c='last', v='sum', tb='sum')).dropna()
+1W swings 21 patterns so far 10
+1D swings 169 patterns so far 135
+4h swings 1097 patterns so far 813
+1h swings 4397 patterns so far 3638
+15min swings 17954 patterns so far 15444
+5min swings 56623 patterns so far 53861
+1min swings 318613 patterns so far 261134
+                             size   mean
+tf    pattern                           
+15min diagonal_diag           858  0.629
+      diagonal_ending         404  0.609
+      diagonal_leading        138  0.652
+      flat_expanded          1059  0.504
+      flat_regular            862  0.465
+      flat_running           1533  0.602
+      impulse                 884  0.524
+      triangle_contracting    733  0.694
+      triangle_expanding     1733  0.422
+      zigzag                 3602  0.405
+1D    diagonal_diag             6  0.833
+      diagonal_ending           2  1.000
+      diagonal_leading          8  0.375
+      flat_expanded             9  0.333
+      flat_regular              7  0.429
+      flat_running             14  0.786
+      impulse                  15  0.667
+      triangle_contracting     11  0.818
+      triangle_expanding       19  0.421
+      zigzag                   34  0.471
+1W    diagonal_leading          1  1.000
+      flat_expanded             1  1.000
+      flat_running              1  0.000
+      impulse                   2  0.500
+      triangle_expanding        2  0.500
+      zigzag                    3  0.333
+1h    diagonal_diag           177  0.621
+      diagonal_ending          61  0.639
+      diagonal_leading         67  0.582
+      flat_expanded           285  0.491
+      flat_regular            198  0.449
+      flat_running            341  0.589
+      impulse                 268  0.552
+      triangle_contracting    154  0.643
+      triangle_expanding      414  0.415
+      zigzag                  860  0.403
+1min  diagonal_diag         23427  0.604
+      flat_expanded         18761  0.464
+      flat_regular          17380  0.452
+      flat_running          26058  0.627
+      impulse               16128  0.574
+      triangle_contracting  11114  0.685
+      triangle_expanding    28914  0.426
+      zigzag                65491  0.385
+4h    diagonal_diag            31  0.548
+      diagonal_ending          22  0.636
+      diagonal_leading         19  0.684
+      flat_expanded            71  0.493
+      flat_regular             57  0.404
+      flat_running             85  0.588
+      impulse                  75  0.560
+      triangle_contracting     39  0.615
+      triangle_expanding       86  0.407
+      zigzag                  193  0.440
+5min  diagonal_diag          1959  0.629
+      diagonal_ending         904  0.624
+      diagonal_leading       1868  0.621
+      flat_expanded          3365  0.493
+      flat_regular           2896  0.456
+      flat_running           4996  0.638
+      impulse                2754  0.580
+      triangle_contracting   2381  0.686
+      triangle_expanding     5541  0.441
+      zigzag                11753  0.404

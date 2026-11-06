@@ -1,0 +1,62 @@
+patterns 261,134  graded predictions 227,666  (2019-01 .. 2026-10)
+Brier 0.2376 vs base rate 0.2500  -> skill +4.9%
+
+CALIBRATION (said vs came true)
+         n   said  came_true
+bin                         
+0.2    288  0.279      0.316
+0.3  69312  0.372      0.369
+0.4  59560  0.441      0.446
+0.5  32974  0.552      0.566
+0.6  61077  0.634      0.628
+0.7   4368  0.718      0.690
+0.8     87  0.808      0.747
+
+FRACTAL CHECK: success rate by pattern x degree
+tf                      1W    1D    4h    1h  15min  5min  1min
+pattern                                                        
+diagonal_diag          NaN  0.80  0.58  0.64   0.63  0.62  0.61
+diagonal_ending        NaN  1.00  0.65  0.60   0.60  0.62   NaN
+diagonal_leading      1.00  0.50  0.68  0.57   0.64  0.61   NaN
+flat_expanded         1.00  0.33  0.49  0.47   0.51  0.49  0.47
+flat_regular           NaN  0.33  0.45  0.46   0.48  0.45  0.46
+flat_running          0.00  0.82  0.60  0.59   0.60  0.64  0.63
+impulse               0.50  0.64  0.57  0.54   0.52  0.57  0.57
+triangle_contracting   NaN  1.00  0.64  0.64   0.69  0.68  0.69
+triangle_expanding    0.50  0.40  0.41  0.42   0.42  0.44  0.43
+zigzag                0.33  0.46  0.44  0.41   0.41  0.40  0.38
+
+TOP-DOWN CONTEXT: success by context (with / against the bigger leg)
+                         size                  mean              
+ctx                   against none     with against   none   with
+pattern                                                          
+diagonal_diag          5756.0  NaN  17197.0   0.654    NaN  0.594
+diagonal_ending         310.0  NaN    916.0   0.652    NaN  0.604
+diagonal_leading        529.0  1.0   1343.0   0.664  1.000  0.596
+flat_expanded          6035.0  1.0  15082.0   0.557  1.000  0.438
+flat_regular           4981.0  NaN  12897.0   0.514    NaN  0.438
+flat_running          16974.0  1.0  10979.0   0.645  0.000  0.614
+impulse                1531.0  2.0  16136.0   0.588  0.500  0.567
+triangle_contracting   5391.0  NaN   7020.0   0.679    NaN  0.700
+triangle_expanding    11315.0  2.0  21175.0   0.530  0.500  0.376
+zigzag                11691.0  3.0  60398.0   0.477  0.333  0.372
+
+MISSES among confident calls (p>=0.6): 24,089 of 65,532
+             condition  share_of_misses  share_of_hits  lift
+    against bigger leg            0.395          0.429 0.921
+       with bigger leg            0.605          0.571 1.059
+     sub-waves unknown            0.946          0.946 1.000
+   low guideline score            0.021          0.022 0.953
+  failed within 2 bars            0.176          0.480 0.367
+tiny reward:risk < 0.5            0.272          0.594 0.458
+
+TRADES the engine would take (predicted EV > +0.2R, before fees)
+           n  predicted_ev  realised_R    hit
+tf                                           
+15min   3671         0.684      -0.034  0.309
+1D        56         0.753       0.169  0.393
+1W         2         1.790       3.576  0.500
+1h       940         0.763      -0.085  0.298
+1min   62916         0.805       0.080  0.310
+4h       227         0.758      -0.067  0.291
+5min   11479         0.647      -0.039  0.315
