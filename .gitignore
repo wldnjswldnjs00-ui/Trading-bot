@@ -7,3 +7,4 @@ data/alt5m/
 ict_multi_trades.csv.gz
 four_trades_*.csv.gz
 regime_trades.csv.gz
+logs/bt17_out.txt
