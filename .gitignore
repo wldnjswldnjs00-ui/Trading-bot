@@ -24,3 +24,4 @@ logs/ew_map_acc_run.txt
 ew/maps_daily.csv
 logs/ha_run.txt
 retr/*.log
+data/okx_*.csv

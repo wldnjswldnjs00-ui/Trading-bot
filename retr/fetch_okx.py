@@ -1,13 +1,14 @@
 """Download OKX candles (default BTC-USDT-SWAP 5m, full history) -> data/okx_<inst>_<bar>.csv
 usage: python retr/fetch_okx.py BTC-USDT-SWAP 5m"""
-import sys, time, json, urllib.request, pandas as pd
+import sys, time, json, subprocess, pandas as pd
 inst, bar = (sys.argv + ['BTC-USDT-SWAP', '5m'])[1:3]
 url = 'https://www.okx.com/api/v5/market/history-candles?instId={}&bar={}&limit=100{}'
 rows, after = [], ''
 while True:
     for k in range(5):
         try:
-            d = json.load(urllib.request.urlopen(url.format(inst, bar, after), timeout=20))['data']; break
+            out = subprocess.run(['curl', '-s', '-m', '20', url.format(inst, bar, after)], capture_output=True, text=True).stdout
+            d = json.loads(out)['data']; break
         except Exception as e:
             time.sleep(2 ** k)
     else:
