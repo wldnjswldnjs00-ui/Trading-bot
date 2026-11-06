@@ -4,3 +4,4 @@ data/btcusdt_5m.csv
 data/raw1m/
 data/*.npy
 data/alt5m/
+ict_multi_trades.csv.gz
