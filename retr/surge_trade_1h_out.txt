@@ -1,0 +1,25 @@
+data/btcusdt_1h.csv: 80,538 bars 2017-08-17..2026-10-31, train < 2023-01-01
+
+SHORT: 126 settings tested. Best 8 chosen on TRAIN, then their TEST result:
+ side  K  M  quiet  stop_atr tgt  wait  start_only  n_tr  win_tr  R_tr  n_te  win_te   R_te
+SHORT  4  2  False       0.5 ext    48        True    32   0.156 1.134    32   0.094 -0.266
+SHORT  3  2   True       0.5 ext    12       False    30   0.267 1.124    26   0.115 -0.725
+SHORT  3  3  False       0.5 ext    12       False    73   0.288 0.700    76   0.145 -0.459
+SHORT  3  2   True       0.5 ext    48       False    48   0.229 0.666    34   0.118 -0.537
+SHORT  3  2  False       0.5 ext    48        True    45   0.133 0.665    56   0.089 -0.554
+SHORT  3  3  False       0.5 ext    48       False    89   0.270 0.597    90   0.144 -0.404
+SHORT  4  2  False       2.0 ext    48        True    32   0.375 0.591    32   0.188 -0.395
+SHORT  4  2  False       1.0 ext    48        True    32   0.219 0.571    32   0.156 -0.195
+  all settings: median train R +0.083, median test R -0.212, share of settings with test R > 0: 12%
+
+LONG: 99 settings tested. Best 8 chosen on TRAIN, then their TEST result:
+side  K  M  quiet  stop_atr tgt  wait  start_only  n_tr  win_tr  R_tr  n_te  win_te   R_te
+LONG  3  3   True       0.5 ext    48       False    30   0.333 0.642    40   0.125 -0.142
+LONG  3  3   True       2.0   2    48       False    30   0.467 0.355    40   0.400  0.127
+LONG  3  3   True       1.0 ext    48       False    30   0.467 0.337    40   0.200 -0.187
+LONG  3  3  False       1.0 ext    12       False    53   0.434 0.321    67   0.239 -0.105
+LONG  3  3   True       1.0   2    48       False    30   0.467 0.310    40   0.275 -0.336
+LONG  3  3  False       1.0 ext    48       False    66   0.394 0.298    75   0.227 -0.141
+LONG  4  3  False       0.5 ext    48       False    48   0.271 0.282    61   0.049 -0.878
+LONG  4  3  False       1.0 ext    48       False    48   0.375 0.279    61   0.131 -0.610
+  all settings: median train R -0.048, median test R -0.268, share of settings with test R > 0: 14%
