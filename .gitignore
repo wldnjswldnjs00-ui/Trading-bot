@@ -13,3 +13,4 @@ ew/*.csv.gz
 logs/bt17_out.txt
 logs/ew_v2_run.txt
 logs/ew_v2_fine_run.txt
+logs/ew_v3_run.txt
