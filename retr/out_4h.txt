@@ -1,0 +1,67 @@
+
+==========================================================================================
+DUMP — 4h bars, impulse >= 4.0 ATR
+
+[ALL dumps — control]  (n=109, median leg 10.2%)
+   level |  reach 24  reach 72  reach 168 | before new extreme (168)
+   0.236 |     100%      100%      100%  |           99% [97%-100%]
+   0.382 |      85%       91%       93%  |            80% [72%-87%]
+     0.5 |      73%       82%       86%  |            61% [51%-70%]
+   0.618 |      59%       75%       83%  |            50% [40%-59%]
+   0.786 |      42%       61%       71%  |            36% [27%-44%]
+     1.0 |      24%       43%       55%  |            24% [16%-32%]
+   1.272 |      12%       26%       43%  |            17% [10%-24%]
+  median max retracement 24/72/168: 0.70 / 0.90 / 1.05 | new extreme within 168: 83%
+
+[YOUR PATTERN strict (quiet<=0.8, build>1.1, surge>=3)]: only 3 events — too few
+
+[YOUR PATTERN loose  (quiet<=1.0, build>1.0, surge>=2)]: only 13 events — too few
+
+[other dumps — not your pattern (loose)]  (n=96, median leg 10.4%)
+   level |  reach 24  reach 72  reach 168 | before new extreme (168)
+   0.236 |     100%      100%      100%  |           99% [97%-100%]
+   0.382 |      86%       91%       93%  |            80% [72%-88%]
+     0.5 |      74%       80%       85%  |            61% [52%-72%]
+   0.618 |      60%       73%       82%  |            51% [42%-61%]
+   0.786 |      45%       59%       71%  |            36% [27%-46%]
+     1.0 |      26%       44%       56%  |            25% [17%-33%]
+   1.272 |      14%       25%       43%  |             17% [9%-24%]
+  median max retracement 24/72/168: 0.72 / 0.92 / 1.08 | new extreme within 168: 83%
+
+==========================================================================================
+PUMP — 4h bars, impulse >= 4.0 ATR
+
+[ALL pumps — control]  (n=134, median leg 8.9%)
+   level |  reach 24  reach 72  reach 168 | before new extreme (168)
+   0.236 |      99%      100%      100%  |           98% [95%-100%]
+   0.382 |      91%       95%       96%  |            81% [75%-87%]
+     0.5 |      72%       80%       84%  |            60% [51%-68%]
+   0.618 |      59%       72%       76%  |            48% [40%-57%]
+   0.786 |      46%       61%       69%  |            37% [29%-45%]
+     1.0 |      31%       44%       56%  |            26% [19%-34%]
+   1.272 |      15%       30%       40%  |            17% [10%-24%]
+  median max retracement 24/72/168: 0.73 / 0.94 / 1.09 | new extreme within 168: 88%
+
+[YOUR PATTERN strict (quiet<=0.8, build>1.1, surge>=3)]: only 5 events — too few
+
+[YOUR PATTERN loose  (quiet<=1.0, build>1.0, surge>=2)]  (n=15, median leg 8.3%)
+   level |  reach 24  reach 72  reach 168 | before new extreme (168)
+   0.236 |     100%      100%      100%  |         100% [100%-100%]
+   0.382 |      87%       93%       93%  |           87% [67%-100%]
+     0.5 |      47%       53%       60%  |            47% [20%-73%]
+   0.618 |      47%       53%       60%  |            47% [20%-73%]
+   0.786 |      47%       53%       60%  |            47% [20%-73%]
+     1.0 |      27%       33%       47%  |            33% [13%-60%]
+   1.272 |      13%       27%       47%  |             27% [7%-47%]
+  median max retracement 24/72/168: 0.47 / 0.93 / 0.97 | new extreme within 168: 80%
+
+[other pumps — not your pattern (loose)]  (n=119, median leg 9.0%)
+   level |  reach 24  reach 72  reach 168 | before new extreme (168)
+   0.236 |      99%      100%      100%  |           97% [94%-100%]
+   0.382 |      92%       95%       96%  |            81% [73%-88%]
+     0.5 |      76%       83%       87%  |            61% [52%-71%]
+   0.618 |      61%       74%       78%  |            48% [39%-58%]
+   0.786 |      46%       62%       71%  |            35% [27%-44%]
+     1.0 |      31%       45%       57%  |            25% [18%-33%]
+   1.272 |      15%       30%       39%  |            16% [10%-22%]
+  median max retracement 24/72/168: 0.73 / 0.94 / 1.10 | new extreme within 168: 89%
