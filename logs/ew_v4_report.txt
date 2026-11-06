@@ -1,0 +1,87 @@
+graded predictions 2,987 | count deaths 7,288
+
+RANK 1 vs others (hit = next wave did what the count said)
+      size   mean
+rank             
+1      724  0.656
+2      615  0.649
+3     1648  0.633
+
+RANK-1 COUNTS: hit rate by pattern / wave just finished / degree
+tf                               1D    4h
+pattern wave tag                         
+DT      X    C/Y                NaN  0.71
+        Y    complete:resume   1.00  0.41
+DZ      X    C/Y                NaN  0.33
+        Y    complete:resume    NaN  0.57
+FL      A    correction         NaN  0.80
+        B    C/Y               0.80  0.66
+        C    complete:resume   1.00  0.33
+IMP     1    correction        0.75  0.71
+        2    wave3             0.45  0.78
+        3    correction         NaN  0.00
+        4    wave5              NaN  1.00
+        5    complete:retrace   NaN  0.00
+LD      1    correction        1.00  0.62
+        2    wave3             0.91  0.80
+        3    correction        0.67  0.72
+        4    wave5             0.57  0.58
+        5    complete:retrace  0.00  0.50
+TRI     B    tri-leg            NaN  0.73
+        C    tri-leg           0.41  0.63
+        D    tri-leg           1.00  0.56
+        E    complete:thrust    NaN  0.40
+TT      X    C/Y               0.88  0.91
+        Z    complete:resume   0.44  0.55
+TZ      X    C/Y                NaN  0.50
+ZZ      A    correction         NaN  0.75
+        B    C/Y                NaN  0.82
+        C    complete:resume   0.67  0.22
+
+TOP-DOWN AGREEMENT (bonus +0.3 agrees, -0.2 disagrees with the bigger count)
+       size   mean
+bonus             
+-0.2    588  0.592
+ 0.0   1007  0.636
+ 0.3   1392  0.668
+
+GUIDELINE SCORE vs hit rate
+      size   mean
+sbin             
+0.0     43  0.558
+0.2     48  0.604
+0.4   1809  0.661
+0.6    346  0.604
+0.8    741  0.621
+
+RULES THAT KILL COUNTS (top 15)
+pattern  rule                         
+FL       B under 90% of A                 484
+LD       wave 2 retraced all of wave 1    467
+TRI      triangle leg is not a 3          405
+ED       wave 2 retraced all of wave 1    399
+TZ       X too deep                       307
+TT       X too deep                       294
+DZ       X too deep                       283
+TT       X is not corrective              269
+IMP      wave 2 retraced all of wave 1    265
+LD       diagonal 2/4 not corrective      265
+ZZ       B retraced all of A              265
+LD       wave 3 did not pass wave 1       255
+FL       B far beyond A start             233
+ED       diagonal 2/4 not corrective      205
+DT       X too deep                       189
+
+EXTENSIONS (completed impulses): which wave extended
+     size   mean
+ext             
+0       7  0.286
+3       1  0.000
+
+FLAT KINDS
+          size   mean
+kind                 
+           133  0.684
+expanded    81  0.679
+regular     55  0.618
+running     18  0.667
