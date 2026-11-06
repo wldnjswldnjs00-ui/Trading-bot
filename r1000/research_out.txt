@@ -1,0 +1,55 @@
+          strat  train_sharpe  test_sharpe  test_ann_1x  trades_per_yr
+   donchian_168         0.730        0.236        0.092         37.797
+      ema_12_48         0.713       -0.924       -0.424        208.999
+    ema_168_720         0.614        0.667        0.305         12.998
+      ema_24_96         0.587       -0.130       -0.060        103.711
+   donchian_720         0.515       -0.044       -0.018          9.952
+      tsmom_720         0.505        0.179        0.082        129.435
+     ema_96_384         0.486        0.217        0.099         24.745
+   donchian_336         0.398       -0.144       -0.058         19.850
+meanrev_168_3.0         0.283       -1.308       -0.155         59.170
+      tsmom_336         0.244       -0.071       -0.032        199.373
+     ema_48_192         0.239        0.101        0.046         53.460
+    donchian_96         0.177        0.166        0.065         65.642
+      tsmom_168         0.015       -0.706       -0.324        295.959
+       tsmom_72        -0.063       -0.984       -0.451        457.698
+    donchian_48        -0.199       -0.632       -0.248        124.594
+    donchian_24        -0.342       -1.057       -0.409        224.226
+meanrev_168_2.5        -0.604       -1.366       -0.238        106.158
+ meanrev_48_2.5        -0.648       -2.338       -0.375        211.446
+ meanrev_48_3.0        -0.753       -2.013       -0.221        112.684
+ meanrev_24_3.0        -0.772       -2.255       -0.234        125.193
+meanrev_168_1.5        -0.999       -1.880       -0.551        263.764
+meanrev_168_2.0        -1.060       -1.818       -0.416        165.437
+       tsmom_24        -1.184       -3.099       -1.423        886.572
+ meanrev_24_2.5        -1.275       -3.344       -0.509        260.392
+ meanrev_24_2.0        -1.281       -4.136       -0.888        465.312
+ meanrev_48_2.0        -1.421       -2.903       -0.648        345.340
+ meanrev_24_1.5        -1.474       -4.264       -1.206        726.791
+ meanrev_48_1.5        -1.824       -2.889       -0.835        505.774
+  season_0.0004        -2.211      -13.749       -4.609       3337.454
+  season_0.0002        -2.506      -14.215       -5.786       4118.520
+     season_0.0        -2.770      -14.360       -6.639       4588.455
+
+ENSEMBLE of top-5 by TRAIN sharpe: ['donchian_168', 'ema_12_48', 'ema_168_720', 'ema_24_96', 'donchian_720']
+ train {'sharpe': np.float64(0.875), 'ann': np.float64(0.535), 'n': 46939}
+ test  {'sharpe': np.float64(0.046), 'ann': np.float64(0.015), 'n': 33599}
+
+LEVERAGE on TEST (2023-01..2026-10), monthly reset NOT used (true compounding):
+ lev      final_x  median_mo   best_mo  worst_mo mo>=1000% liquidated
+   1        0.862      -1.6%     26.8%    -20.7%        0%          -
+   2        0.493      -3.9%     57.9%    -37.3%        0%          -
+   3        0.186      -7.0%     93.3%    -50.8%        0%          -
+   5            0     -14.6%    175.0%    -70.0%        0% 2026-03-31
+  10            0     -42.1%    425.8%    -75.4%        0% 2024-05-12
+  20            0     -89.3%    -79.3%    -99.3%        0% 2023-03-30
+  50            0       nan%      nan%      nan%      nan% 2023-01-14
+ 100            0       nan%      nan%      nan%      nan% 2023-01-12
+
+NOISY ORACLE on TEST: robot calls each 1h candle direction with accuracy p, 1x lev, after costs
+  p=0.50: 1x mean month -52.0% | Kelly lev  -29.2x | Kelly growth/month +0%
+  p=0.51: 1x mean month -47.7% | Kelly lev  -26.7x | Kelly growth/month +0%
+  p=0.52: 1x mean month -43.4% | Kelly lev  -24.4x | Kelly growth/month +0%
+  p=0.53: 1x mean month -37.9% | Kelly lev  -21.3x | Kelly growth/month +0%
+  p=0.55: 1x mean month -28.7% | Kelly lev  -16.2x | Kelly growth/month +0%
+  p=0.60: 1x mean month -7.0% | Kelly lev   -4.0x | Kelly growth/month +0%
