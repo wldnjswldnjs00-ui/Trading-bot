@@ -22,3 +22,4 @@ logs/ew_full_map_run.txt
 ew/full_map_trades.csv.gz
 logs/ew_map_acc_run.txt
 ew/maps_daily.csv
+logs/ha_run.txt
