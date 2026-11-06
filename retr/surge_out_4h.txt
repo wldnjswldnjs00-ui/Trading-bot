@@ -1,0 +1,32 @@
+
+[4h, volume >= 2x quiet] DUMP -> does it come back UP to the surge level?   n=100
+   level |   24h   72h    7d | before new low/high (7d) | median hrs
+   close |   53%   63%   70% |       52% [42%-62%]     |          6
+    edge |   35%   52%   62% |       38% [29%-47%]     |         64
+    vwap |   52%   61%   67% |       49% [39%-59%]     |         24
+   2017-2021 n= 46: close 59% / edge 41% before new extreme; touch within 7d close 72%
+   2022-2026 n= 54: close 46% / edge 35% before new extreme; touch within 7d close 69%
+
+[4h, volume >= 2x quiet] PUMP -> does it come back DOWN to the surge level?   n=118
+   level |   24h   72h    7d | before new low/high (7d) | median hrs
+   close |   62%   69%   75% |       60% [51%-69%]     |          6
+    edge |   36%   50%   60% |       41% [31%-50%]     |         52
+    vwap |   55%   64%   70% |       53% [44%-62%]     |         16
+   2017-2021 n= 43: close 65% / edge 44% before new extreme; touch within 7d close 81%
+   2022-2026 n= 75: close 57% / edge 39% before new extreme; touch within 7d close 71%
+
+[4h, volume >= 3x quiet] DUMP -> does it come back UP to the surge level?   n=78
+   level |   24h   72h    7d | before new low/high (7d) | median hrs
+   close |   72%   77%   85% |       72% [63%-82%]     |          0
+    edge |   49%   62%   74% |       50% [40%-60%]     |         24
+    vwap |   68%   79%   86% |       68% [56%-78%]     |          4
+   2017-2021 n= 30: close 80% / edge 57% before new extreme; touch within 7d close 90%
+   2022-2026 n= 48: close 67% / edge 46% before new extreme; touch within 7d close 81%
+
+[4h, volume >= 3x quiet] PUMP -> does it come back DOWN to the surge level?   n=81
+   level |   24h   72h    7d | before new low/high (7d) | median hrs
+   close |   77%   83%   86% |       77% [67%-85%]     |          0
+    edge |   43%   53%   63% |       52% [41%-63%]     |         20
+    vwap |   65%   77%   81% |       68% [58%-78%]     |          6
+   2017-2021 n= 32: close 84% / edge 62% before new extreme; touch within 7d close 91%
+   2022-2026 n= 49: close 71% / edge 45% before new extreme; touch within 7d close 84%

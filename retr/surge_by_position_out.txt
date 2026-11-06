@@ -1,0 +1,40 @@
+
+[1h, vol>=2x] DUMP: where volume first exploded -> back to that close BEFORE new extreme (7d) | touch within 24h / 7d
+   bottom 1/3       n=105 |  96% [92%-99%] |  98% /  99%
+   middle 1/3       n=192 |  64% [57%-70%] |  71% /  89%
+   top 1/3 (start)  n=232 |  30% [25%-36%] |  25% /  63%
+
+[1h, vol>=2x] PUMP: where volume first exploded -> back to that close BEFORE new extreme (7d) | touch within 24h / 7d
+   bottom 1/3       n=125 |  97% [94%-99%] |  98% /  98%
+   middle 1/3       n=158 |  63% [56%-71%] |  70% /  85%
+   top 1/3 (start)  n=227 |  26% [21%-32%] |  27% /  55%
+
+[1h, vol>=3x] DUMP: where volume first exploded -> back to that close BEFORE new extreme (7d) | touch within 24h / 7d
+   bottom 1/3       n=142 |  96% [92%-99%] |  99% /  99%
+   middle 1/3       n=176 |  63% [56%-70%] |  74% /  88%
+   top 1/3 (start)  n=116 |  32% [23%-40%] |  28% /  61%
+
+[1h, vol>=3x] PUMP: where volume first exploded -> back to that close BEFORE new extreme (7d) | touch within 24h / 7d
+   bottom 1/3       n=153 |  95% [92%-99%] |  97% /  99%
+   middle 1/3       n=124 |  66% [58%-74%] |  73% /  85%
+   top 1/3 (start)  n=113 |  27% [19%-35%] |  29% /  56%
+
+[4h, vol>=2x] DUMP: where volume first exploded -> back to that close BEFORE new extreme (7d) | touch within 24h / 7d
+   bottom 1/3       n= 20 | 100% [100%-100%] | 100% / 100%
+   middle 1/3       n= 32 |  56% [41%-75%] |  62% /  81%
+   top 1/3 (start)  n= 48 |  29% [17%-44%] |  27% /  50%
+
+[4h, vol>=2x] PUMP: where volume first exploded -> back to that close BEFORE new extreme (7d) | touch within 24h / 7d
+   bottom 1/3       n= 31 | 100% [100%-100%] | 100% / 100%
+   middle 1/3       n= 39 |  67% [51%-82%] |  74% /  90%
+   top 1/3 (start)  n= 48 |  29% [17%-42%] |  27% /  46%
+
+[4h, vol>=3x] DUMP: where volume first exploded -> back to that close BEFORE new extreme (7d) | touch within 24h / 7d
+   bottom 1/3       n= 34 | 100% [100%-100%] | 100% / 100%
+   middle 1/3       n= 28 |  61% [43%-79%] |  64% /  82%
+   top 1/3 (start)  n= 16 |  31% [6%-56%] |  25% /  56%
+
+[4h, vol>=3x] PUMP: where volume first exploded -> back to that close BEFORE new extreme (7d) | touch within 24h / 7d
+   bottom 1/3       n= 33 | 100% [100%-100%] | 100% / 100%
+   middle 1/3       n= 28 |  64% [46%-82%] |  71% /  86%
+   top 1/3 (start)  n= 20 |  55% [35%-80%] |  45% /  65%
