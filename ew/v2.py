@@ -184,3 +184,60 @@ def fit_ridge(X, y, lam=10.0):
 
 def predict_ridge(m, X):
     w, mu, sd = m; return np.c_[np.ones(len(X)), (X - mu) / sd] @ w
+
+
+# ---------- v2.1: earlier entry on the fine degree ----------
+def build_fine_entry(m1, tfs=TFS, max_tries=3):
+    """Same readings, but "now" is the moment a FINE swing confirms the end of
+    wave 2 / B while the main counter-leg is still unconfirmed. The stop sits
+    just beyond that fine swing, so it is far closer than in v2."""
+    rows = []; degs = {tf: Deg(tf, m1) for tf in tfs}
+    for g, tf in enumerate(tfs):
+        D = degs[tf]; U = degs[tfs[g - 1]] if g > 0 else None
+        fi, fkn = D.fi, D.fkn
+        fkind = None
+        # fine swing kinds/prices
+        a = _atr(D.h, D.l, D.c, 14); _, fp, fk, _ = _zigzag(D.h, D.l, a, K_FINE)
+        for j in range(3, len(D.p)):                      # main swing j = P1 (top of leg 1 / A)
+            now0 = D.kn[j]; nxt = D.kn[j + 1] if j + 1 < len(D.p) else np.iinfo(np.int64).max
+            s = 1 if D.k[j] == 1 else -1                  # P1 is a high -> looking for a higher low, next leg up
+            P0, P1, X1, X0 = D.p[j - 1], D.p[j], D.p[j - 2], D.p[j - 3]
+            L1 = s * (P1 - P0)
+            if L1 <= 0: continue
+            st = np.searchsorted(fkn, now0, side='right'); tries = 0
+            for q in range(st, len(fi)):
+                if fkn[q] >= nxt or tries >= max_tries: break
+                if fk[q] != -s or fi[q] <= D.i[j]: continue
+                P2 = fp[q]; tries += 1
+                if s * (P2 - P0) <= 0: break              # broke the start of leg 1: readings dead
+                now = fkn[q]; r = s * (P1 - P2) / L1
+                sub1 = D.sub(D.i[j - 1], D.i[j], now); sub2 = D.sub(D.i[j], fi[q], now)
+                prev = s * (X1 - P0); w1 = s * (X1 - X0); w2 = s * (X1 - P0)
+                sc = {}
+                if 0 < r < 1:
+                    if sub1 >= 5 and sub1 % 2 == 1: sc['W12'] = s; sc['ZAB'] = s if r <= 0.886 else 0
+                    if sub1 == 3 and r >= 0.786: sc['FAB'] = s
+                    if sub1 == 3 and prev > 0 and prev > L1: sc['CNT'] = -s
+                    if w1 > 0 and w2 > 0 and w2 < w1 and s * (P2 - X1) > 0 and L1 > 0.618 * w1 and r < 0.618: sc['W34'] = s
+                    if L1 < abs(prev) and sub1 == 3 and sub2 == 3: sc['TRI'] = 0
+                if not sc: continue
+                k_now = np.searchsorted(D.ct, now, side='left')
+                if k_now + 1 >= len(D.c): break
+                ib = fi[q]; rng = D.h[ib] - D.l[ib]
+                wick = ((min(D.o[ib], D.c[ib]) - D.l[ib]) if s > 0 else (D.h[ib] - max(D.o[ib], D.c[ib]))) / rng if rng > 0 else 0
+                vp = vp_ratio(D, D.i[j], P2)
+                dirs = {v for v in sc.values() if v != 0}
+                x = dict(s=s, P0=P0, P1=P1, P2=P2, L1=L1, px=D.c[k_now], k_now=k_now)
+                o = outcome(D, x)
+                if o is None: continue
+                tp1, tp2, R, d, bars = o
+                row = dict(tf=tf, time=pd.Timestamp(now, tz='UTC'), side=s, tp1=tp1, tp2=tp2, R=R, stop_dist=d, bars=bars,
+                           rr=abs(P1 - x['px']) / abs(x['px'] - P2), zone=int(np.searchsorted(ZONES, min(r, 0.999), side='right') - 1),
+                           sub1=sub1, sub2=sub2, consensus=int(len(dirs) == 1 and s in dirs), against=int(-s in dirs), wick=wick, vp=vp,
+                           held_node=int(r > 0.618 and vp >= 1.5 and wick >= 0.4), pierced_618=int(r > 0.618),
+                           parent=(U.leg_dir(now) * s) if U else 0)
+                for name in ('W12', 'ZAB', 'FAB', 'W34', 'CNT', 'TRI'): row[name] = int(name in sc)
+                rows.append(row)
+                break                                     # one entry per leg
+        print(tf, 'fine-entry signals', sum(1 for r in rows if r['tf'] == tf), flush=True)
+    return pd.DataFrame(rows), degs

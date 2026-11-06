@@ -1,10 +1,10 @@
 """Run v2 on BTC: build signals, walk-forward odds, self-check report, current readings."""
 import numpy as np, pandas as pd
-from ew.v2 import build, walk_forward, design, fit_logit, predict_logit, fit_ridge, predict_ridge, TFS
+from ew.v2 import build, build_fine_entry, walk_forward, design, fit_logit, predict_logit, fit_ridge, predict_ridge, TFS
 from ew.engine import load_1m
 
 if __name__ == '__main__':
-    m1 = load_1m(); R, degs = build(m1); R.to_csv('ew/v2_signals_btc.csv.gz', index=False)
+    import sys; m1 = load_1m(); fine = len(sys.argv) > 1 and sys.argv[1] == 'fine'; R, degs = (build_fine_entry if fine else build)(m1); tag = '_fine' if fine else ''; R.to_csv(f'ew/v2{tag}_signals_btc.csv.gz', index=False)
     P = walk_forward(R); P.to_csv('ew/v2_predictions_btc.csv.gz', index=False)
     pd.set_option('display.width', 250); out = []
     out.append(f'signals {len(R):,} | graded (2019+) {len(P):,}')
@@ -40,4 +40,4 @@ if __name__ == '__main__':
     last['p1'] = predict_logit(m1f, Xl); last['ev'] = predict_ridge(mEf, Xl)
     out.append('\nLATEST SIGNAL PER DEGREE (as of data end)\n' + last[['tf', 'time', 'side', 'W12', 'ZAB', 'FAB', 'W34', 'CNT', 'TRI', 'consensus',
                                                                     'zone', 'vp', 'p1', 'ev']].round(3).to_string(index=False))
-    txt = '\n'.join(out); print(txt); open('logs/ew_v2_report.txt', 'w').write(txt)
+    txt = '\n'.join(out); print(txt); open(f'logs/ew_v2{tag}_report.txt', 'w').write(txt)
