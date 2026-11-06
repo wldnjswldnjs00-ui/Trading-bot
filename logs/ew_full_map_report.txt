@@ -1,0 +1,96 @@
+=== BTC 9y ===
+                  n    win   avgR  per_day  R_month
+stop    tf                                         
+invalid 15min  2279  0.623 -0.068    0.680   -1.414
+        1h      568  0.662 -0.000    0.169   -0.002
+        5min   7331  0.566 -0.116    2.186   -7.713
+swing   15min  2607  0.565 -0.075    0.778   -1.762
+        1h      644  0.582 -0.004    0.192   -0.025
+        5min   8380  0.511 -0.139    2.499  -10.577
+
+by setup kind
+         size          mean       
+stop  invalid swing invalid  swing
+kind                              
+done     1922  2154  -0.151 -0.155
+leg      2783  3000  -0.127 -0.134
+trend    5473  6477  -0.066 -0.097
+
+by pattern (stop = invalid, n>=50)
+                    size   mean
+pattern wave kind              
+TRI     D    leg      70 -0.025
+FL      B    trend  1286 -0.044
+TT      X    trend   203 -0.044
+ED      2    trend   818 -0.045
+DT      X    trend   346 -0.050
+DZ      X    trend   483 -0.067
+ZZ      C    done    464 -0.072
+        B    trend  1316 -0.073
+TRI     B    leg    1107 -0.115
+IMP     2    trend   974 -0.116
+DZ      Y    done    257 -0.122
+TRI     A    leg    1415 -0.136
+DT      Y    done    580 -0.149
+TRI     C    leg     191 -0.171
+FL      C    done     56 -0.190
+TT      Z    done    439 -0.208
+ED      5    done     65 -0.352
+=== coins 3y ===
+                   n    win   avgR  per_day  R_month
+stop    tf                                          
+invalid 15min  84384  0.644 -0.033   77.063  -77.405
+        1h     20245  0.638 -0.028   18.489  -15.748
+swing   15min  95073  0.593 -0.036   86.825  -94.349
+        1h     23443  0.585 -0.033   21.409  -21.480
+
+by setup kind
+         size           mean       
+stop  invalid  swing invalid  swing
+kind                               
+done    20660  23308  -0.012 -0.016
+leg     32184  34372  -0.049 -0.049
+trend   51785  60836  -0.030 -0.035
+
+by pattern (stop = invalid, n>=50)
+                     size   mean
+pattern wave kind               
+TZ      Z    done     131  0.208
+ED      4    trend    340  0.017
+DT      Y    done    7334  0.004
+TT      Z    done    5352 -0.002
+TRI     D    leg      839 -0.004
+ZZ      B    trend  12049 -0.021
+ED      2    trend   8707 -0.026
+ZZ      C    done    4050 -0.026
+IMP     2    trend   8326 -0.027
+TRI     A    leg    15747 -0.028
+FL      B    trend  12399 -0.029
+DZ      Y    done    2129 -0.040
+DT      X    trend   3491 -0.040
+DZ      X    trend   3852 -0.046
+TZ      X    trend     67 -0.050
+TRI     C    leg     2341 -0.051
+FL      C    done     717 -0.053
+TT      X    trend   2532 -0.060
+ED      5    done     562 -0.064
+TRI     E    done     354 -0.064
+        B    leg    13257 -0.077
+
+share of coins with positive avgR (stop = invalid)
+tf
+15min    0.187
+1h       0.360
+
+REGIME BUTTON OVERLAY: keep only trades on the side of the month (lag 0 = perfect caller)
+    univ    tf    stop    all  with_lag0  n_day_lag0  Rmonth_lag0  with_lag7  n_day_lag7  Rmonth_lag7  with_lag14  n_day_lag14  Rmonth_lag14
+  BTC 9y 15min invalid -0.068      0.045       0.234        0.316      0.024       0.245        0.179       0.018        0.243         0.137
+  BTC 9y 15min   swing -0.075      0.054       0.266        0.439      0.025       0.279        0.213       0.027        0.276         0.224
+  BTC 9y    1h invalid -0.000      0.115       0.062        0.218      0.109       0.065        0.215       0.091        0.062         0.171
+  BTC 9y    1h   swing -0.004      0.134       0.070        0.284      0.114       0.073        0.252       0.074        0.071         0.160
+  BTC 9y  5min invalid -0.116     -0.058       0.741       -1.298     -0.065       0.747       -1.476      -0.069        0.741        -1.563
+  BTC 9y  5min   swing -0.139     -0.070       0.851       -1.808     -0.084       0.865       -2.219      -0.093        0.851        -2.397
+coins 3y 15min invalid -0.033      0.014      20.950        8.832      0.006      20.830        4.025       0.005       20.172         3.038
+coins 3y 15min   swing -0.036      0.020      23.888       14.282      0.008      23.751        5.636       0.009       22.892         6.566
+coins 3y    1h invalid -0.028      0.069       4.963       10.397      0.047       4.973        7.070       0.039        4.909         5.759
+coins 3y    1h   swing -0.033      0.070       5.783       12.222      0.041       5.796        7.189       0.039        5.684         6.689
