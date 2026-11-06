@@ -1,0 +1,168 @@
+1000BONK
+1000PEPE
+1000SHIB
+2Z
+AAVE
+ACT
+ADA
+AERO
+AKE
+ALGO
+ALLO
+APE
+APR
+APT
+AR
+ARB
+ARX
+ASTER
+ATH
+ATOM
+AVAX
+AXS
+BASED
+BAT
+BCH
+BEAT
+BERA
+BICO
+BILL
+BIO
+BLUR
+BNB
+BOME
+BSB
+BTC
+BTW
+CAP
+CC
+CFX
+CHIP
+CHZ
+CRV
+DASH
+DOGE
+DOOD
+DOS
+DOT
+DYDX
+EDGE
+EIGEN
+ENA
+ENS
+ENSO
+ETC
+ETH
+ETHFI
+FARTCOIN
+FET
+FIL
+FLOCK
+FOGO
+GALA
+GIGGLE
+GRAM
+GRASS
+GRVT
+H
+HBAR
+HOME
+HUMA
+HYPE
+ICP
+IMX
+INIT
+INJ
+IOST
+IRYS
+JTO
+JUP
+KAITO
+KAT
+KMNO
+LA
+LAB
+LDO
+LINK
+LIT
+LPT
+LTC
+MAGIC
+MEGA
+MERL
+MET
+MEW
+MINA
+MMT
+MON
+MOODENG
+MORPHO
+MUBARAK
+NEAR
+NIGHT
+NMR
+OL
+ONDO
+ONE
+OP
+ORDER
+ORDI
+PARTI
+PENDLE
+PENGU
+PEOPLE
+PIEVERSE
+PLUME
+PNUT
+POL
+PONS
+PUMP
+PYTH
+RAVE
+RAY
+RE
+RENDER
+RIVER
+RSR
+RVN
+S
+SAND
+SEI
+SLX
+SOL
+SOON
+SOPH
+SPX
+STRK
+STX
+SUI
+SYRUP
+TAO
+TIA
+TRB
+TRIA
+TRUMP
+TRUTH
+TRX
+UB
+UNI
+USELESS
+coins 150
+                               n  per_day    win  avg_win  payoff   avgR  first   last  coins_pos  R_month    max_R   adds
+cfg                                                                                                                       
+ict|-|reg|pyr               6680    6.100  0.300    0.951   2.978  0.062  0.088  0.034      0.439   11.495  125.862  0.278
+ict|-|reg|half_trail        6496    5.932  0.524    1.010   1.011  0.054  0.034  0.075      0.534    9.655   31.960  0.000
+ict|sess|reg|pyr            2638    2.409  0.290    0.985   2.929  0.047  0.092 -0.001      0.444    3.435   33.960  0.273
+ict|sess|reg|half_trail     2606    2.380  0.516    1.024   1.025  0.045  0.047  0.043      0.542    3.273    9.146  0.000
+ict|-|-|half_trail         18225   16.644  0.516    0.993   0.994  0.028  0.022  0.036      0.534   14.364   31.960  0.000
+ict|-|-|pyr                19601   17.900  0.295    0.847   2.650  0.025  0.032  0.016      0.480   13.433  125.862  0.272
+ict|sess|-|pyr              7845    7.164  0.296    0.850   2.547  0.017  0.050 -0.020      0.446    3.689   33.960  0.275
+ict|sess|-|half_trail       7623    6.962  0.511    0.985   0.986  0.014  0.029 -0.002      0.439    3.018    9.146  0.000
+sweep|-|-|pyr              31009   28.319  0.133    6.034   6.191 -0.041 -0.033 -0.051      0.338  -35.286  358.345  0.191
+sweep|-|reg|pyr            10685    9.758  0.134    5.886   6.037 -0.052 -0.066 -0.036      0.338  -15.490  358.345  0.188
+sweep|-|-|half_trail       30500   27.854  0.184    4.133   4.133 -0.053 -0.058 -0.047      0.392  -45.149   60.491  0.000
+sweep|-|reg|half_trail     10542    9.627  0.181    4.195   4.196 -0.061 -0.092 -0.025      0.399  -17.890  115.483  0.000
+sweep|sess|reg|half_trail   3623    3.309  0.183    3.880   3.881 -0.108 -0.083 -0.140      0.340  -10.874   34.644  0.000
+sweep|sess|-|half_trail    10637    9.714  0.187    3.756   3.757 -0.110 -0.099 -0.124      0.304  -32.511   41.349  0.000
+sweep|sess|reg|pyr          3642    3.326  0.129    5.381   5.535 -0.151 -0.048 -0.278      0.286  -15.229   85.680  0.189
+sweep|sess|-|pyr           10716    9.786  0.132    5.207   5.357 -0.157 -0.083 -0.250      0.257  -46.592  128.129  0.183

@@ -1,0 +1,39 @@
+breakout n=5 done
+fade_break n=5 done
+breakout n=15 done
+fade_break n=15 done
+breakout n=30 done
+fade_break n=30 done
+breakout n=60 done
+fade_break n=60 done
+band_fade n=20,z=2.0 done
+band_break n=20,z=2.0 done
+band_fade n=20,z=3.0 done
+band_break n=20,z=3.0 done
+band_fade n=60,z=2.0 done
+band_break n=60,z=2.0 done
+band_fade n=60,z=3.0 done
+band_break n=60,z=3.0 done
+pullback ema9/50 done
+pullback ema20/200 done
+vol_momo x3.0 done
+vol_fade x3.0 done
+vol_momo x5.0 done
+vol_fade x5.0 done
+configs 660 | positive both 0 | best avgR_out -0.246
+    family          p  atr_k  tgtR    fee  med_stop  n_in  per_day_in  win_in  avgR_in  per_day_out  win_out  avgR_out
+ band_fade n=60,z=3.0    2.0   6.0 0.0002    0.0014  7396     10.1176  0.2201  -0.2429      11.3077   0.2191   -0.2603
+ band_fade n=60,z=2.0    2.0   6.0 0.0002    0.0013 21498     29.4090  0.2180  -0.2611      29.2170   0.2230   -0.2578
+fade_break       n=60    2.0   6.0 0.0002    0.0012 18575     25.4104  0.2115  -0.2673      24.7088   0.2195   -0.2564
+fade_break       n=30    2.0   6.0 0.0002    0.0012 21572     29.5103  0.2101  -0.2715      29.1374   0.2146   -0.2710
+ band_fade n=60,z=3.0    2.0   4.0 0.0002    0.0014  7675     10.4993  0.2426  -0.2445      11.8187   0.2429   -0.2718
+ band_fade n=60,z=2.0    2.0   4.0 0.0002    0.0013 24794     33.9179  0.2394  -0.2687      33.8022   0.2436   -0.2782
+  vol_fade       x5.0    2.0   4.0 0.0002    0.0013 11115     15.2052  0.2345  -0.2783      16.5989   0.2555   -0.2460
+  vol_fade       x5.0    2.0   6.0 0.0002    0.0013 10483     14.3406  0.2094  -0.2809      15.4890   0.2288   -0.2460
+fade_break       n=60    2.0   4.0 0.0002    0.0012 21150     28.9330  0.2383  -0.2721      28.0797   0.2425   -0.2844
+ band_fade n=60,z=3.0    2.0   3.0 0.0002    0.0014  7876     10.7743  0.2718  -0.2560      12.2060   0.2705   -0.2868
+fade_break       n=30    2.0   4.0 0.0002    0.0011 24904     34.0684  0.2402  -0.2693      33.7555   0.2423   -0.2873
+fade_break       n=15    2.0   6.0 0.0002    0.0011 23642     32.3420  0.2096  -0.2757      32.6758   0.2094   -0.2873
+  vol_fade       x5.0    2.0   3.0 0.0002    0.0013 11713     16.0233  0.2662  -0.2875      17.7033   0.2860   -0.2563
+fade_break        n=5    2.0   6.0 0.0002    0.0012 24867     34.0178  0.2127  -0.2582      34.5440   0.2127   -0.2888
+ band_fade n=20,z=2.0    2.0   6.0 0.0002    0.0012 22078     30.2025  0.2044  -0.2872      30.9808   0.2107   -0.2890

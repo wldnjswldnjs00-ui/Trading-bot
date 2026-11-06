@@ -1,0 +1,593 @@
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+/home/user/trading-bot/bt5.py:96: UserWarning: Converting to PeriodArray/Index representation will drop timezone information.
+  m = pd.Series(1 + T.pnl.values, index=T.time).groupby(T.time.dt.to_period('M').values).prod() - 1
+ Km  maxstop  tgtR    fee  regime  conf  n_in  win_in  avg_in  n_out  per_day_out  win_out  avg_out  mdd_out
+  6    0.008   3.0 0.0002   False False  3647  0.3408 -0.0008   3942       2.8177   0.3384  -0.0009  -0.9793
+  6    0.008   3.0 0.0002   False  True  1613  0.3311 -0.0011   1771       1.2677   0.3360  -0.0010  -0.8711
+  6    0.008   2.0 0.0002   False False  3770  0.3700 -0.0009   4088       2.9221   0.3704  -0.0011  -0.9920
+  6    0.005   3.0 0.0002   False False  2154  0.3301 -0.0011   3342       2.3888   0.3270  -0.0011  -0.9833
+  4    0.008   3.0 0.0002   False  True  3579  0.2948 -0.0012   3153       2.2586   0.3089  -0.0012  -0.9813
+  6    0.008   2.0 0.0002   False  True  1641  0.3571 -0.0013   1810       1.2956   0.3707  -0.0012  -0.8987
+  4    0.005   2.0 0.0002    True False   936  0.3665 -0.0009   1222       0.8754   0.3666  -0.0012  -0.8095
+  6    0.008   1.5 0.0002   False False  3881  0.4125 -0.0009   4253       3.0400   0.4084  -0.0012  -0.9959
+  4    0.008   2.0 0.0002    True False  1101  0.3787 -0.0006   1312       0.9398   0.3651  -0.0012  -0.8373
+  4    0.005   3.0 0.0002   False  True  2927  0.2849 -0.0014   2998       2.1476   0.3052  -0.0013  -0.9836
+  6    0.008   1.5 0.0002   False  True  1665  0.3946 -0.0013   1851       1.3250   0.4095  -0.0013  -0.9163
+  6    0.003   3.0 0.0002    True False   135  0.3259 -0.0015    363       0.2598   0.3168  -0.0013  -0.4306
+  4    0.003   3.0 0.0002   False  True  1641  0.2888 -0.0014   2331       1.6698   0.3050  -0.0013  -0.9674
+  6    0.005   2.0 0.0002   False False  2214  0.3663 -0.0011   3455       2.4696   0.3606  -0.0013  -0.9932
+  6    0.003   3.0 0.0002   False  True   367  0.2943 -0.0017    994       0.7115   0.3169  -0.0013  -0.7871
+positive both: 0 of 144
