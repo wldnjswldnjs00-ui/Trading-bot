@@ -3,3 +3,4 @@ data/btcusdt_5m.csv
 *.zip
 data/raw1m/
 data/*.npy
+data/alt5m/
