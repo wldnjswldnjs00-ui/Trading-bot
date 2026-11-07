@@ -1,0 +1,18 @@
+YOUR EXAMPLE (2026-11-05 UTC):
+  not detected
+
+992 box-breakout impulses, 2020-07..2026-10, train < 2024-03-14
+
+===== DUMP from a box -> back up to the box low?  (SHORT there)  n=492
+  back to the box: within 24h 56% | within 72h 73% | before a new extreme 26% | (median distance box->extreme 2.0%, 2.5 box heights)
+  trade T0  train : n=  75  win  37%  mean +0.180R  total +13.5R
+  trade T0  test  : n=  28  win  18%  mean -0.552R  total -15.5R
+  trade T50 train : n=  75  win  63%  mean +0.355R  total +26.7R
+  trade T50 test  : n=  28  win  39%  mean -0.272R  total -7.6R
+
+===== PUMP from a box -> back down to the box high? (LONG there)  n=500
+  back to the box: within 24h 55% | within 72h 70% | before a new extreme 29% | (median distance box->extreme 1.8%, 2.5 box heights)
+  trade T0  train : n=  78  win  27%  mean -0.120R  total -9.4R
+  trade T0  test  : n=  45  win  27%  mean -0.174R  total -7.8R
+  trade T50 train : n=  78  win  41%  mean -0.135R  total -10.6R
+  trade T50 test  : n=  45  win  38%  mean -0.270R  total -12.1R
