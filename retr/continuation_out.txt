@@ -1,0 +1,23 @@
+15583 impulses on 5m (2020-07..2026-11), train < 2024-04-29
+
+===== DUMP (short the bounce): n=7826 | breaks the extreme within 24h: 86% | median retrace before the break: 0.70
+   retrace-before-break quartiles (25/50/75/90%): {0.25: 0.5, 0.5: 0.7, 0.75: 1.06, 0.9: 1.84}
+   trade (entry retr, stop retr) -> mean R train | test | n test | win test
+     0.382 0.786  -0.189 | -0.265 |  1222 | 50%
+     0.382 1.0    -0.127 | -0.192 |  1222 | 59%
+     0.5   0.786  -0.349 | -0.407 |  1547 | 36%
+     0.5   1.0    -0.200 | -0.255 |  1547 | 48%
+     0.618 1.0    -0.248 | -0.364 |  1497 | 36%
+     0.618 1.272  -0.183 | -0.235 |  1497 | 48%
+     0.786 1.272  -0.284 | -0.369 |  1316 | 34%
+
+===== PUMP (long the dip): n=7757 | breaks the extreme within 24h: 88% | median retrace before the break: 0.69
+   retrace-before-break quartiles (25/50/75/90%): {0.25: 0.48, 0.5: 0.69, 0.75: 1.07, 0.9: 1.87}
+   trade (entry retr, stop retr) -> mean R train | test | n test | win test
+     0.382 0.786  -0.269 | -0.250 |  1209 | 51%
+     0.382 1.0    -0.176 | -0.162 |  1209 | 61%
+     0.5   0.786  -0.428 | -0.352 |  1491 | 38%
+     0.5   1.0    -0.249 | -0.201 |  1491 | 50%
+     0.618 1.0    -0.336 | -0.331 |  1435 | 37%
+     0.618 1.272  -0.208 | -0.199 |  1435 | 49%
+     0.786 1.272  -0.285 | -0.284 |  1246 | 37%

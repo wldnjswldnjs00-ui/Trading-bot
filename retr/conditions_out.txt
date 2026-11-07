@@ -1,0 +1,38 @@
+CONTROL: random moments, a level the same ATR distance below price -> broken within 24h: 78%
+ACTUAL : dumps 86%, pumps 88%
+
+tested 6,107 (condition x trade) combos
+
+SHORT: top 10 by TRAIN R, and what they did on TEST
+ side                       cond       trade  n_tr  R_tr  n_te   R_te  R_te1  R_te2  win_te  brk_te
+SHORT       bvol_b=low & sweep=1 0.382_0.786   133 0.078   102 -0.113 -0.100 -0.125   0.549   0.859
+SHORT       bvol_b=low & sweep=1   0.382_1.0   133 0.069   102 -0.129 -0.116 -0.141   0.608   0.859
+SHORT   size_b=high & dur_b=high 0.382_0.786   187 0.066   183  0.050  0.039  0.060   0.612   0.882
+SHORT    bvol_b=high & sess=late 0.786_1.272   139 0.066    73 -0.426 -0.396 -0.470   0.315   0.840
+SHORT      size_b=high & trend=1 0.382_0.786   255 0.046   202 -0.153 -0.313 -0.018   0.515   0.847
+SHORT    legpct_b=high & slope=0   0.618_1.0   386 0.043    85  0.198  0.263  0.057   0.494   0.828
+SHORT   size_b=high & dur_b=high   0.382_1.0   187 0.033   183  0.035 -0.008  0.068   0.689   0.882
+SHORT       bvol_b=low & sweep=1   0.618_1.0   167 0.032   113 -0.227 -0.145 -0.289   0.381   0.859
+SHORT  size_b=high & surge_b=mid   0.382_1.0   185 0.032   137 -0.151 -0.143 -0.158   0.591   0.861
+SHORT quiet_b=high & bvol_b=high 0.786_1.272   239 0.030   140 -0.128 -0.125 -0.133   0.400   0.836
+  survivors (train>0, test>0, both test halves>0): 3 of 3028  (by luck alone expect ~4 if there is no edge)
+ side                     cond       trade  n_tr  R_tr  n_te  R_te  R_te1  R_te2  win_te  brk_te
+SHORT  legpct_b=high & trend=0   0.618_1.0   359 0.017    87 0.231  0.283  0.109   0.506   0.844
+SHORT  legpct_b=high & slope=0   0.618_1.0   386 0.043    85 0.198  0.263  0.057   0.494   0.828
+SHORT size_b=high & dur_b=high 0.382_0.786   187 0.066   183 0.050  0.039  0.060   0.612   0.882
+
+LONG: top 10 by TRAIN R, and what they did on TEST
+side                        cond       trade  n_tr   R_tr  n_te   R_te  R_te1  R_te2  win_te  brk_te
+LONG   dur_b=high & legpct_b=mid   0.382_1.0   147  0.062   135 -0.049 -0.011 -0.100   0.644   0.885
+LONG surge_b=high & quiet_b=high   0.5_0.786   126  0.032    84 -0.183 -0.159 -0.203   0.381   0.841
+LONG   dur_b=high & legpct_b=mid     0.5_1.0   163  0.013   142  0.064  0.017  0.122   0.592   0.885
+LONG    quiet_b=mid & dur_b=high   0.382_1.0   156  0.010   111 -0.088 -0.240  0.067   0.631   0.907
+LONG      quiet_b=high & sweep=1 0.618_1.272   299  0.006   218 -0.217 -0.197 -0.236   0.463   0.840
+LONG    quiet_b=high & sess=asia   0.618_1.0   119  0.000    81 -0.200 -0.141 -0.245   0.395   0.873
+LONG   dur_b=low & legpct_b=high     0.5_1.0   212 -0.001    67  0.035 -0.043  0.131   0.552   0.826
+LONG surge_b=high & quiet_b=high     0.5_1.0   126 -0.003    84 -0.272 -0.296 -0.251   0.429   0.841
+LONG  size_b=high & quiet_b=high 0.618_1.272   259 -0.003   173 -0.195 -0.197 -0.193   0.462   0.829
+LONG bvol_b=high & legpct_b=high   0.382_1.0   171 -0.006    74 -0.134 -0.229  0.076   0.568   0.776
+  survivors (train>0, test>0, both test halves>0): 1 of 3079  (by luck alone expect ~1 if there is no edge)
+side                      cond   trade  n_tr  R_tr  n_te  R_te  R_te1  R_te2  win_te  brk_te
+LONG dur_b=high & legpct_b=mid 0.5_1.0   163 0.013   142 0.064  0.017  0.122   0.592   0.885
