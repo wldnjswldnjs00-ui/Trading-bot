@@ -1,0 +1,37 @@
+coins ['BTC']: 194,041 setups, 4,608 rules scored
+
+===== SHORT: 2304 rules | survivors 0 | pure luck would give ~2
+  does VOLUME matter? median test R by top-candle volume filter VM: {0: -0.63, 1: -0.615, 2: -0.565, 3: -0.511}
+  by impulse-volume filter VS: {0: -0.593, 2: -0.582}
+  by entry: {'far': -1.548, 'mid': -0.589, 'near': -0.337} | by stop: {'sh': -0.535, 'tight': -0.72} | by target: {'1': -0.721, '2': -0.636, '3': -0.62, 'pl': -0.392}
+  best 8 by TRAIN -> TEST:
+ side  K  VM  P  VS              rule  n_tr  R_tr  n_te   R_te  R_te1  R_te2  win_te  avgwin  avgloss
+SHORT  4   0  2   0    near|sh|pl|be0  2227 0.177  1575  0.070 -0.112  0.250   0.349   2.960   -1.481
+SHORT  4   0  4   0    near|sh|pl|be0  1277 0.165   936  0.071 -0.201  0.337   0.245   4.813   -1.464
+SHORT  4   0  4   0 near|tight|pl|be0  1277 0.158   936  0.079 -0.222  0.373   0.228   5.508   -1.520
+SHORT  4   0  2   0 near|tight|pl|be0  2227 0.158  1575  0.065 -0.159  0.286   0.329   3.292   -1.517
+SHORT  4   0  2   0     mid|sh|pl|be0  2091 0.132  1480 -0.109 -0.249  0.034   0.243   4.663   -1.643
+SHORT  4   0  2   0  mid|tight|pl|be0  2091 0.107  1480 -0.107 -0.300  0.090   0.221   5.400   -1.669
+SHORT  4   0  4   0     mid|sh|pl|be0  1215 0.101   880 -0.226 -0.390 -0.059   0.158   7.235   -1.626
+SHORT  4   0  4   0  mid|tight|pl|be0  1215 0.098   880 -0.208 -0.443  0.033   0.139   8.958   -1.683
+
+===== LONG: 2304 rules | survivors 4 | pure luck would give ~2
+  does VOLUME matter? median test R by top-candle volume filter VM: {0: -0.523, 1: -0.515, 2: -0.46, 3: -0.446}
+  by impulse-volume filter VS: {0: -0.514, 2: -0.488}
+  by entry: {'far': -1.468, 'mid': -0.498, 'near': -0.311} | by stop: {'sh': -0.392, 'tight': -0.606} | by target: {'1': -0.584, '2': -0.538, '3': -0.49, 'pl': -0.447}
+  best 8 by TRAIN -> TEST:
+side  K  VM  P  VS              rule  n_tr  R_tr  n_te   R_te  R_te1  R_te2  win_te  avgwin  avgloss
+LONG  4   0  2   0    near|sh|pl|be0  2118 0.191  1582  0.051  0.073  0.030   0.362   2.690   -1.448
+LONG  4   0  4   0    near|sh|pl|be0  1226 0.186   911  0.177  0.170  0.185   0.281   4.338   -1.449
+LONG  4   0  4   0 near|tight|pl|be0  1226 0.172   911  0.109  0.011  0.204   0.252   4.975   -1.535
+LONG  4   0  2   0 near|tight|pl|be0  2118 0.137  1582  0.009  0.050 -0.031   0.332   3.071   -1.516
+LONG  4   0  2   0     near|sh|3|be0  2118 0.117  1582  0.061  0.045  0.076   0.349   2.837   -1.427
+LONG  4   1  2   0     near|sh|3|be0  1913 0.088  1453 -0.023 -0.043 -0.004   0.321   2.848   -1.384
+LONG  4   0  2   0     mid|sh|pl|be0  1968 0.081  1467 -0.069  0.000 -0.138   0.256   4.338   -1.588
+LONG  4   0  2   0    near|sh|pl|be1  2118 0.081  1582 -0.063  0.028 -0.152   0.303   2.422   -1.145
+  survivors (best 12 by test R):
+side  K  VM  P  VS              rule  n_tr  R_tr  n_te  R_te  R_te1  R_te2  win_te  avgwin  avgloss
+LONG  4   0  4   0    near|sh|pl|be0  1226 0.186   911 0.177  0.170  0.185   0.281   4.338   -1.449
+LONG  4   0  4   0 near|tight|pl|be0  1226 0.172   911 0.109  0.011  0.204   0.252   4.975   -1.535
+LONG  4   0  2   0     near|sh|3|be0  2118 0.117  1582 0.061  0.045  0.076   0.349   2.837   -1.427
+LONG  4   0  2   0    near|sh|pl|be0  2118 0.191  1582 0.051  0.073  0.030   0.362   2.690   -1.448
