@@ -1,0 +1,21 @@
+rules positive in TRAIN on BTC, ETH and SOL: 15
+
+== sizing: full  (median over rules x coins)  position x seed 5.5 | test 2.6y: x2.67 | per month +3.2% | max DD 84% | wiped out 7%
+
+== sizing: half  (median over rules x coins)  position x seed 2.8 | test 2.6y: x2.66 | per month +3.2% | max DD 55% | wiped out 0%
+
+== sizing: yours  (median over rules x coins)  position x seed 14.0 | test 2.6y: x0.02 | per month -11.7% | max DD 100% | wiped out 51%
+
+HALF-Kelly, rules ranked by their WORST coin in test:
+                     L  test_x_min  test_x_med    mdd     pm
+side  rule                                                  
+LONG  0.005|0.05  4.00      11.416      78.103  0.695  0.151
+      0.005|0.03  5.00       7.668     650.613  0.744  0.232
+      0.005|pl    2.75       2.979       4.724  0.665  0.051
+SHORT 0.005|0.03  4.25       2.803       9.960  0.909  0.077
+      0.005|0.05  4.25       2.591      61.075  0.804  0.141
+LONG  0.005|0.02  3.75       1.804      43.775  0.596  0.129
+SHORT 0.003|0.05  2.75       1.719       1.806  0.770  0.019
+LONG  0.003|0.03  2.75       1.678       5.421  0.555  0.056
+      0.003|0.05  3.75       1.322       5.425  0.728  0.056
+SHORT 0.005|0.02  4.75       1.078       1.547  0.941  0.014

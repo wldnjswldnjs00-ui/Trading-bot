@@ -1,0 +1,38 @@
+
+== LONG stop 0.5% target 3% | slippage 0.02%
+  BTC half-Kelly pos  5.0x: test x    521.32  maxDD  49% | win 24.1% E/trade(1x) test +0.237% train +0.194%
+  BTC yours 14x  pos 14.0x: test x  15703.60  maxDD  91% | win 24.1% E/trade(1x) test +0.237% train +0.194%
+     E/trade(1x) by year %: {2020: 0.47, 2021: 0.07, 2022: 0.05, 2023: 0.38, 2024: 0.25, 2025: 0.3, 2026: 0.17}
+  ETH half-Kelly pos  5.0x: test x   1035.86  maxDD  74% | win 24.2% E/trade(1x) test +0.238% train +0.179%
+  ETH yours 14x  pos 14.0x: test x  48216.78  maxDD  99% | win 24.2% E/trade(1x) test +0.238% train +0.179%
+     E/trade(1x) by year %: {2020: 0.5, 2021: 0.07, 2022: 0.04, 2023: 0.22, 2024: 0.24, 2025: 0.21, 2026: 0.34}
+  SOL half-Kelly pos  5.0x: test x     22.17  maxDD  67% | win 20.9% E/trade(1x) test +0.123% train +0.087%
+  SOL yours 14x  pos 14.0x: test x      1.17  maxDD  98% | win 20.9% E/trade(1x) test +0.123% train +0.087%
+     E/trade(1x) by year %: {2021: 0.12, 2022: 0.05, 2023: 0.06, 2024: 0.13, 2025: 0.1, 2026: 0.17}
+
+== LONG stop 0.5% target 3% | slippage 0.05%
+  BTC half-Kelly pos  5.0x: test x    107.14  maxDD  52% | win 23.4% E/trade(1x) test +0.188% train +0.133%
+  BTC yours 14x  pos 14.0x: test x    176.73  maxDD  93% | win 23.4% E/trade(1x) test +0.188% train +0.133%
+  ETH half-Kelly pos  5.0x: test x     66.09  maxDD  81% | win 22.7% E/trade(1x) test +0.163% train +0.124%
+  ETH yours 14x  pos 14.0x: test x     26.28  maxDD 100% | win 22.7% E/trade(1x) test +0.163% train +0.124%
+  SOL half-Kelly pos  5.0x: test x      1.87  maxDD  69% | win 19.9% E/trade(1x) test +0.063% train +0.017%
+  SOL yours 14x  pos 14.0x: test x      0.00  maxDD 100% | win 19.9% E/trade(1x) test +0.063% train +0.017%
+
+== LONG stop 0.5% target 5% | slippage 0.02%
+  BTC half-Kelly pos  4.0x: test x     11.42  maxDD  62% | win 14.6% E/trade(1x) test +0.176% train +0.243%
+  BTC yours 14x  pos 14.0x: test x      0.28  maxDD  98% | win 14.6% E/trade(1x) test +0.176% train +0.243%
+     E/trade(1x) by year %: {2020: 0.82, 2021: 0.06, 2022: 0.09, 2023: 0.4, 2024: 0.24, 2025: 0.22, 2026: 0.09}
+  ETH half-Kelly pos  4.0x: test x     53.37  maxDD  62% | win 15.3% E/trade(1x) test +0.227% train +0.297%
+  ETH yours 14x  pos 14.0x: test x      7.69  maxDD 100% | win 15.3% E/trade(1x) test +0.227% train +0.297%
+     E/trade(1x) by year %: {2020: 0.71, 2021: 0.23, 2022: 0.07, 2023: 0.38, 2024: 0.19, 2025: 0.3, 2026: 0.28}
+  SOL half-Kelly pos  4.0x: test x    170.89  maxDD  66% | win 15.5% E/trade(1x) test +0.243% train +0.247%
+  SOL yours 14x  pos 14.0x: test x     41.63  maxDD 100% | win 15.5% E/trade(1x) test +0.243% train +0.247%
+     E/trade(1x) by year %: {2021: 0.31, 2022: 0.19, 2023: 0.19, 2024: 0.22, 2025: 0.31, 2026: 0.25}
+
+== LONG stop 0.5% target 5% | slippage 0.05%
+  BTC half-Kelly pos  4.0x: test x      2.62  maxDD  65% | win 13.7% E/trade(1x) test +0.107% train +0.193%
+  BTC yours 14x  pos 14.0x: test x      0.00  maxDD 100% | win 13.7% E/trade(1x) test +0.107% train +0.193%
+  ETH half-Kelly pos  4.0x: test x     16.20  maxDD  67% | win 14.8% E/trade(1x) test +0.178% train +0.246%
+  ETH yours 14x  pos 14.0x: test x      0.11  maxDD 100% | win 14.8% E/trade(1x) test +0.178% train +0.246%
+  SOL half-Kelly pos  4.0x: test x     38.62  maxDD  68% | win 15.1% E/trade(1x) test +0.192% train +0.151%
+  SOL yours 14x  pos 14.0x: test x      0.25  maxDD 100% | win 15.1% E/trade(1x) test +0.192% train +0.151%

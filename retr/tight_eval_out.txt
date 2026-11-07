@@ -1,0 +1,26 @@
+TEST period 2024-04..2026-11, position = 14x seed. Equity numbers are % of the WHOLE seed per trade.
+
+coin  side  stop target  per   n  win  avg_win_eq  avg_loss_eq  E_eq      final_x  maxDD
+ SOL  LONG 0.005   0.05 test 759 15.5        69.0        -8.68  3.40    41.633143  100.0
+ ETH  LONG 0.005   0.03 test 757 24.2        41.0        -8.68  3.33 48216.780664   99.0
+ BTC  LONG 0.005   0.03 test 688 24.1        41.0        -8.68  3.31 15703.598672   91.0
+ ETH  LONG 0.005   0.05 test 642 15.3        69.0        -8.68  3.18     7.687492  100.0
+ SOL SHORT 0.005   0.05 test 789 15.0        69.0        -8.68  2.94     2.731595  100.0
+ ETH SHORT 0.005   0.05 test 733 15.0        68.1        -8.68  2.84     1.512180  100.0
+ BTC  LONG 0.005   0.05 test 562 14.6        67.7        -8.68  2.46     0.281868   98.0
+ BTC  LONG 0.005   0.02 test 767 31.0        27.0        -8.68  2.40  7259.795558   90.0
+ ETH  LONG 0.005   0.02 test 824 30.1        27.0        -8.68  2.06  1112.353709   98.0
+ SOL  LONG 0.003   0.05 test 815 10.4        69.0        -5.88  1.93     1.453914   98.0
+ BTC SHORT 0.005   0.03 test 739 21.1        41.0        -8.68  1.81     1.984779  100.0
+ BTC  LONG 0.003   0.03 test 781 16.3        41.0        -5.88  1.75    55.798807   91.0
+
+rules with positive expectancy in BOTH train and test: 48 of 120
+accounts wiped out (equity -> ~0) in test: 85 of 120
+
+by stop distance (median over coins/sides/targets, TEST):
+          win  avg_loss_eq    E_eq   maxDD
+stop                                      
+0.001  0.0560      -0.0308 -0.0129  1.0000
+0.002  0.1180      -0.0448 -0.0037  0.9999
+0.003  0.1638      -0.0588  0.0008  0.9992
+0.005  0.2579      -0.0868  0.0112  0.9978
