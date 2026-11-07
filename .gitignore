@@ -28,3 +28,4 @@ data/okx_*.csv
 retr/ob_events_*.csv
 retr/ob_trades_*.csv
 retr/tight_*.csv
+retr/avg_*.csv
