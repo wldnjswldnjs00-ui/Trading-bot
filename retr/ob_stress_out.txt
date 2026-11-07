@@ -1,0 +1,12 @@
+### retr/ob_trades_BTCstress_4_0_4_0_-1.csv  trades kept 1554 (2020-07..2026-11)
+  train n= 909 win 27.4% avgwin +4.10R avgloss -1.32R  E=+0.165R  Kelly f*=+4.0%  trades/yr 243
+  test  n= 645 win 29.1% avgwin +4.26R avgloss -1.40R  E=+0.250R  Kelly f*=+5.9%  trades/yr 249
+    f=1.00%: x    3.62 over 2.6y | CAGR  +64.3% | median month  +3.3% | worst month -20.1% | max DD 44.3% | losing months 48%
+### retr/ob_trades_ETHstress_4_0_4_0_-1.csv  trades kept 1636 (2020-07..2026-11)
+  train n= 959 win 25.4% avgwin +4.73R avgloss -1.28R  E=+0.253R  Kelly f*=+5.4%  trades/yr 256
+  test  n= 677 win 25.8% avgwin +4.09R avgloss -1.32R  E=+0.080R  Kelly f*=+1.9%  trades/yr 261
+    f=1.00%: x    1.31 over 2.6y | CAGR  +11.0% | median month  -0.3% | worst month -17.8% | max DD 52.3% | losing months 58%
+### retr/ob_trades_SOLstress_4_0_4_0_-1.csv  trades kept 1636 (2021-01..2026-11)
+  train n= 925 win 24.6% avgwin +5.11R avgloss -1.22R  E=+0.340R  Kelly f*=+6.6%  trades/yr 292
+  test  n= 711 win 23.9% avgwin +4.40R avgloss -1.30R  E=+0.063R  Kelly f*=+1.4%  trades/yr 274
+    f=1.00%: x    1.15 over 2.6y | CAGR   +5.5% | median month  -3.0% | worst month -23.5% | max DD 40.2% | losing months 61%

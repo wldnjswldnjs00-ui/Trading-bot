@@ -1,0 +1,22 @@
+
+### retr/ob_trades_ETH_4_0_4_0_-1.csv  trades kept 1661 (2020-07..2026-11)
+  train n= 973 win 27.9% avgwin +4.85R avgloss -1.18R  E=+0.497R  Kelly f*=+10.2%  trades/yr 260
+  test  n= 688 win 26.9% avgwin +4.04R avgloss -1.21R  E=+0.199R  Kelly f*=+4.9%  trades/yr 265
+  all   n=1661 win 27.5% avgwin +4.52R avgloss -1.20R  E=+0.373R  Kelly f*=+8.3%  trades/yr 262
+  TEST-period equity, compounding (risk per trade f):
+    f=0.25%: x    1.38 over 2.6y | CAGR  +13.3% | median month  +0.4% | worst month  -4.3% | max DD 12.4% | losing months 39%
+    f=0.50%: x    1.85 over 2.6y | CAGR  +26.8% | median month  +0.8% | worst month  -8.4% | max DD 23.5% | losing months 39%
+    f=1.00%: x    3.00 over 2.6y | CAGR  +52.8% | median month  +1.1% | worst month -16.1% | max DD 42.0% | losing months 39%
+    f=2.00%: x    5.50 over 2.6y | CAGR  +93.0% | median month  +0.8% | worst month -30.0% | max DD 67.4% | losing months 48%
+    f=3.00%: x    6.52 over 2.6y | CAGR +106.1% | median month  -0.7% | worst month -41.7% | max DD 82.2% | losing months 55%
+
+### retr/ob_trades_SOL_4_0_4_0_-1.csv  trades kept 1652 (2021-01..2026-11)
+  train n= 932 win 26.5% avgwin +5.16R avgloss -1.15R  E=+0.523R  Kelly f*=+10.1%  trades/yr 294
+  test  n= 720 win 25.8% avgwin +4.48R avgloss -1.20R  E=+0.266R  Kelly f*=+5.9%  trades/yr 278
+  all   n=1652 win 26.2% avgwin +4.86R avgloss -1.17R  E=+0.411R  Kelly f*=+8.5%  trades/yr 286
+  TEST-period equity, compounding (risk per trade f):
+    f=0.25%: x    1.58 over 2.6y | CAGR  +19.2% | median month  +0.4% | worst month  -5.9% | max DD 10.4% | losing months 48%
+    f=0.50%: x    2.38 over 2.6y | CAGR  +39.8% | median month  +0.6% | worst month -11.4% | max DD 19.8% | losing months 48%
+    f=1.00%: x    4.79 over 2.6y | CAGR  +83.0% | median month  +0.4% | worst month -21.6% | max DD 35.8% | losing months 48%
+    f=2.00%: x   12.41 over 2.6y | CAGR +164.2% | median month  -1.7% | worst month -38.8% | max DD 59.4% | losing months 52%
+    f=3.00%: x   19.06 over 2.6y | CAGR +211.8% | median month  -5.0% | worst month -52.5% | max DD 74.6% | losing months 52%
