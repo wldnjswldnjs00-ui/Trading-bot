@@ -82,7 +82,7 @@ def run(K, VM, P, VS, d):
 
 GRID = os.environ.get('GRID')               # e.g. '4,0,4,0,-1' to run one setting only
 
-STOPS = [0.001, 0.002, 0.003, 0.005]
+STOPS = [0.001, 0.0015, 0.002, 0.003, 0.005]
 TGTS = [0.01, 0.02, 0.03, 0.05, 'pl']
 SLIPM = float(os.environ.get('SLIPM', '0.0002'))    # market-order slippage at entry
 TAKER_IN = 0.0005 + 0.0                              # slippage already in the entry price

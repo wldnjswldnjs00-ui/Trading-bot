@@ -1,0 +1,12 @@
+slip 0.02%           stop 0.005 tgt 0.05  train 2021-02..2024-03: 2.29/day win 14.8% E/trade(1x) +0.201% | 14x: RUIN | 4x: +43.3%/mo DD79% | 2x: +25.3%/mo DD52% |
+slip 0.02%           stop 0.005 tgt 0.05  test  2024-04..2026-11: 1.56/day win 15.8% E/trade(1x) +0.250% | 14x: RUIN | 4x: +39.0%/mo DD91% | 2x: +21.8%/mo DD67% |
+slip 0.02%           stop 0.005 tgt 0.03  train 2021-02..2024-03: 3.08/day win 20.9% E/trade(1x) +0.121% | 14x: RUIN | 4x: +35.3%/mo DD85% | 2x: +20.5%/mo DD57% |
+slip 0.02%           stop 0.005 tgt 0.03  test  2024-04..2026-11: 2.43/day win 21.1% E/trade(1x) +0.130% | 14x: RUIN | 4x: +30.1%/mo DD91% | 2x: +17.3%/mo DD66% |
+slip 0.02%           stop 0.003 tgt 0.05  train 2021-02..2024-03: 2.80/day win 9.9% E/trade(1x) +0.109% | 14x: RUIN | 4x: +23.6%/mo DD87% | 2x: +15.3%/mo DD58% |
+slip 0.02%           stop 0.003 tgt 0.05  test  2024-04..2026-11: 2.14/day win 10.3% E/trade(1x) +0.127% | 14x: RUIN | 4x: +22.9%/mo DD84% | 2x: +14.0%/mo DD59% |
+slip 0.05% (stress)  stop 0.005 tgt 0.05  train 2021-02..2024-03: 2.32/day win 14.2% E/trade(1x) +0.143% | 14x: RUIN | 4x: +23.1%/mo DD85% | 2x: +16.1%/mo DD56% |
+slip 0.05% (stress)  stop 0.005 tgt 0.05  test  2024-04..2026-11: 1.61/day win 14.8% E/trade(1x) +0.168% | 14x: RUIN | 4x: +20.9%/mo DD97% | 2x: +13.5%/mo DD82% |
+slip 0.05% (stress)  stop 0.005 tgt 0.03  train 2021-02..2024-03: 3.12/day win 20.1% E/trade(1x) +0.068% | 14x: RUIN | 4x: +11.5%/mo DD94% | 2x: +9.4%/mo DD69% |
+slip 0.05% (stress)  stop 0.005 tgt 0.03  test  2024-04..2026-11: 2.47/day win 20.0% E/trade(1x) +0.068% | 14x: RUIN | 4x: +8.9%/mo DD97% | 2x: +7.3%/mo DD79% |
+slip 0.05% (stress)  stop 0.003 tgt 0.05  train 2021-02..2024-03: 2.92/day win 9.2% E/trade(1x) +0.040% | 14x: RUIN | 4x: -1.0%/mo DD97% | 2x: +3.1%/mo DD81% |
+slip 0.05% (stress)  stop 0.003 tgt 0.05  test  2024-04..2026-11: 2.26/day win 9.1% E/trade(1x) +0.035% | 14x: RUIN | 4x: -1.9%/mo DD98% | 2x: +1.8%/mo DD77% |
