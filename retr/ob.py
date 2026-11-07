@@ -30,6 +30,7 @@ quiet = pd.Series(v).shift(24).rolling(48).mean().values
 ema = pd.Series(c).ewm(span=600).mean().values
 MAKER, TAKER = 0.0002, 0.0005 + SLIP
 ENT, STP, TGT, BE = ['near', 'mid', 'far'], ['sh', 'tight'], ['pl', 1, 2, 3], [0, 1]
+TRACK = os.environ.get('TRACK')            # e.g. 'near|sh|pl|be0': also store entry/exit times
 
 def run(K, VM, P, VS, d):
     """d = +1: pump -> short.  d = -1: dump -> long. Returns list of event dicts."""
@@ -87,19 +88,25 @@ def run(K, VM, P, VS, d):
                     cur = stp; moved = False
                     for mm in range(m0, min(m0 + 2592, n)):
                         if (s == -1 and h[mm] >= cur) or (s == 1 and l[mm] <= cur):
-                            R = (s * (cur - ent) / ent - MAKER - TAKER) / risk; break
+                            R = (s * (cur - ent) / ent - MAKER - TAKER) / risk; ex = mm; break
                         if mm > m0 and ((s == -1 and l[mm] <= T * (1 - PEN)) or (s == 1 and h[mm] >= T * (1 + PEN))):
-                            R = (abs(T - ent) / ent - 2 * MAKER) / risk; break
+                            R = (abs(T - ent) / ent - 2 * MAKER) / risk; ex = mm; break
                         if be and not moved and s * (c[mm] - ent) / ent >= risk: cur = ent; moved = True
                     else:
-                        R = (s * (c[min(m0 + 2592, n - 1)] - ent) / ent - MAKER - TAKER) / risk
+                        R = (s * (c[min(m0 + 2592, n - 1)] - ent) / ent - MAKER - TAKER) / risk; ex = min(m0 + 2592, n - 1)
+                    if key == TRACK: ev['t_in'] = df.index[m0]; ev['t_out'] = df.index[ex]; ev['risk'] = risk
                     last_end = max(last_end, m0)
             ev[key] = R
         out.append(ev)
         t = max(k, last_end) + 1
     return out
 
+GRID = os.environ.get('GRID')               # e.g. '4,0,4,0,-1' to run one setting only
 rows = []
+if GRID:
+    K, VM, P, VS, d = (int(x) for x in GRID.split(','))
+    E = pd.DataFrame(run(K, VM, P, VS, d)); E['coin'] = TAG
+    E.to_csv(f'retr/ob_trades_{TAG}_{GRID.replace(",", "_")}.csv', index=False); print(TAG, len(E)); sys.exit()
 for K, VM, P, VS, d in itertools.product([4, 6, 8], [0, 1, 2, 3], [2, 4], [0, 2], [1, -1]):
     rows += run(K, VM, P, VS, d)
 E = pd.DataFrame(rows); E['coin'] = TAG

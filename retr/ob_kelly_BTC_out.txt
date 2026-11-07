@@ -1,0 +1,11 @@
+
+### retr/ob_trades_BTC_4_0_4_0_-1.csv  trades kept 1594 (2020-07..2026-11)
+  train n= 937 win 29.7% avgwin +3.97R avgloss -1.22R  E=+0.323R  Kelly f*=+8.1%  trades/yr 251
+  test  n= 657 win 31.1% avgwin +4.12R avgloss -1.26R  E=+0.409R  Kelly f*=+9.9%  trades/yr 253
+  all   n=1594 win 30.2% avgwin +4.03R avgloss -1.24R  E=+0.358R  Kelly f*=+8.9%  trades/yr 251
+  TEST-period equity, compounding (risk per trade f):
+    f=0.25%: x    1.92 over 2.6y | CAGR  +28.5% | median month  +1.3% | worst month  -4.8% | max DD 10.6% | losing months 35%
+    f=0.50%: x    3.52 over 2.6y | CAGR  +62.5% | median month  +2.5% | worst month  -9.5% | max DD 20.2% | losing months 35%
+    f=1.00%: x   10.55 over 2.6y | CAGR +148.2% | median month  +4.8% | worst month -18.1% | max DD 37.6% | losing months 35%
+    f=2.00%: x   62.01 over 2.6y | CAGR +391.6% | median month  +8.3% | worst month -33.3% | max DD 64.6% | losing months 39%
+    f=3.00%: x  220.45 over 2.6y | CAGR +701.9% | median month +10.5% | worst month -45.9% | max DD 81.3% | losing months 39%

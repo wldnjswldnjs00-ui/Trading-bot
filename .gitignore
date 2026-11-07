@@ -26,3 +26,4 @@ logs/ha_run.txt
 retr/*.log
 data/okx_*.csv
 retr/ob_events_*.csv
+retr/ob_trades_*.csv
