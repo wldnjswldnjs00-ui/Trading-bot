@@ -1,0 +1,28 @@
+SHORT: rules positive in train AND test on all 3 coins: 4 of 20
+LONG: rules positive in train AND test on all 3 coins: 7 of 20
+
+== SHORT stop 0.5% target 3% | slip 0.02%
+  BTC: win 21.1% E/trade(1x) test +0.129% train +0.156% | 4.2x: x15.49 DD 62% | 14.0x: x1.98 DD 100% |
+     by year %: {2020: 0.02, 2021: 0.15, 2022: 0.2, 2023: 0.21, 2024: 0.07, 2025: 0.15, 2026: 0.18}
+  ETH: win 19.6% E/trade(1x) test +0.075% train +0.209% | 4.2x: x3.33 DD 81% | 14.0x: x0.01 DD 100% |
+     by year %: {2020: 0.02, 2021: 0.21, 2022: 0.21, 2023: 0.36, 2024: 0.09, 2025: 0.03, 2026: 0.15}
+  SOL: win 20.9% E/trade(1x) test +0.121% train +0.096% | 4.2x: x20.36 DD 62% | 14.0x: x0.91 DD 100% |
+     by year %: {2021: -0.01, 2022: 0.09, 2023: 0.19, 2024: 0.21, 2025: 0.01, 2026: 0.18}
+
+== SHORT stop 0.5% target 3% | slip 0.05%
+  BTC: win 20.1% E/trade(1x) test +0.069% train +0.109% | 4.2x: x2.41 DD 79% | 14.0x: x0.00 DD 100% |
+  ETH: win 18.3% E/trade(1x) test +0.007% train +0.121% | 4.2x: x0.34 DD 91% | 14.0x: x0.00 DD 100% |
+  SOL: win 19.6% E/trade(1x) test +0.053% train +0.028% | 4.2x: x1.59 DD 83% | 14.0x: x0.00 DD 100% |
+
+== SHORT stop 0.5% target 5% | slip 0.02%
+  BTC: win 13.2% E/trade(1x) test +0.103% train +0.145% | 4.2x: x2.61 DD 92% | 14.0x: x0.00 DD 100% |
+     by year %: {2020: -0.09, 2021: 0.22, 2022: 0.18, 2023: 0.16, 2024: 0.0, 2025: 0.09, 2026: 0.25}
+  ETH: win 15.0% E/trade(1x) test +0.203% train +0.277% | 4.2x: x54.83 DD 78% | 14.0x: x1.51 DD 100% |
+     by year %: {2020: 0.1, 2021: 0.29, 2022: 0.39, 2023: 0.28, 2024: 0.15, 2025: 0.17, 2026: 0.32}
+  SOL: win 15.0% E/trade(1x) test +0.210% train +0.254% | 4.2x: x92.66 DD 73% | 14.0x: x2.73 DD 100% |
+     by year %: {2021: 0.04, 2022: 0.32, 2023: 0.37, 2024: 0.35, 2025: 0.05, 2026: 0.36}
+
+== SHORT stop 0.5% target 5% | slip 0.05%
+  BTC: win 12.6% E/trade(1x) test +0.047% train +0.090% | 4.2x: x0.64 DD 95% | 14.0x: x0.00 DD 100% |
+  ETH: win 13.8% E/trade(1x) test +0.111% train +0.165% | 4.2x: x3.66 DD 92% | 14.0x: x0.00 DD 100% |
+  SOL: win 13.9% E/trade(1x) test +0.127% train +0.176% | 4.2x: x6.67 DD 88% | 14.0x: x0.00 DD 100% |
