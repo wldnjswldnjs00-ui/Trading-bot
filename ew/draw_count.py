@@ -100,7 +100,7 @@ ax.xaxis.set_major_formatter(mdates.DateFormatter('%m-%d %Hh'))
 
 handles = [plt.Line2D([], [], color=c, lw=2, ls=ls) for c, ls in [(BIG, '-'), (MED, '-'), (SMALL, '-'), (BEAR, '--'), (BULL, '--')]]
 fig.legend(handles, ['big degree', 'medium degree', 'small degree', 'main scenario (bear)', 'alternate (bull)'],
-           loc='upper center', ncol=5, frameon=False, labelcolor=INK, fontsize=9, bbox_to_anchor=(0.5, 0.905))
+           loc='lower center', ncol=5, frameon=False, labelcolor=INK, fontsize=9, bbox_to_anchor=(0.5, 0.075))
 fig.text(0.01, 0.003, 'BTCUSDT · Binance spot 1h to 2026-10-31 + OKX perp 5m to 2026-11-06 20:00 UTC · times UTC · '
          'counts are scenarios, not forecasts (auto wave-count direction accuracy here was 47–56%)', color=INK2, fontsize=8)
 fig.savefig('logs/ew_count_now.png', dpi=110, facecolor=SURF, bbox_inches='tight')
